@@ -1,0 +1,26 @@
+.header {
+    background-color: #16161e;
+    border-bottom: 1px solid yellow;
+    position: fixed;
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    left: 0px;
+    top: 0px;
+}
+
+.nav {
+    padding-left: 100px;
+    padding-right: 100px;
+    border: .5px solid yellow;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 50px;
+    color: white;
+}
+
+.nav:hover {
+    background-color: yellow;
+    color: black;
+}

@@ -1,36 +1,54 @@
 import React from 'react';
-import Logo from './components/Logo';
+import About from './components/About';
+import Matrix from './components/Matrix';
+import Home from './components/Home';
+import Language from './components/Language';
+
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  useParams
+  Link
 } from "react-router-dom";
 
 import './App.css';
 import './components/styles/Logo.css';
+import './components/styles/Header.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-
       <Router>
-        <div className="pages">
-          <div className="nav">
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/donate">Donate</Link>
-            <Link to="/horses">Horses</Link>
-          </div>
+
+        <div className="header">
+          <Link className="nav" to="/">Home</Link>
+          <Link className="nav" to="/matrix">Matrix</Link>
+          <Link className="nav" to="/languages">Languages</Link>
+          <Link className="nav" to="/about">About</Link>
+
         </div>
+
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+
+          <Route path="/languages">
+            <Language />
+          </Route>
+
+          <Route path="/matrix">
+            <Matrix />
+          </Route>
+
+          <Route path="/">
+            <Home />
+          </Route>
+
+        </Switch>
+
       </Router>
-
-      <Logo />
-
     </div>
   );
 }
-
-export default App;

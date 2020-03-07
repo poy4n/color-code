@@ -1,4 +1,4 @@
-/* .logo {
+.logo {
     animation: logo infinite 10000ms linear;
 }
 
@@ -9,7 +9,7 @@
     to {
         transform: rotate(360deg);
     }
-} */
+}
 
 .logo-wrap {
     margin-top: 150px;

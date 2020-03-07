@@ -1,0 +1,15 @@
+.languages {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border: 1px solid yellow;
+    text-align: center;
+}
+
+.languages-box {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
