@@ -1,12 +1,15 @@
 import React from 'react'
 import { DistortionText } from 'react-text-fun'
+import Works from './Works'
 
 import './styles/About.css';
 
 
 export default function About() {
     return (
-        <div className="about">
+        <div>
+            <Works />
+
             <DistortionText text="pouyan" speed={.1} fontSize={100}/>
 
             <div className="about-parag">

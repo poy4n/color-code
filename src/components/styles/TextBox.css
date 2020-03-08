@@ -33,3 +33,13 @@ h2 {
     color: white;
     font-family: monospace;
 }
+
+@media only screen and (max-width: 1000px) {
+    .text-box {
+        width: 300px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+}

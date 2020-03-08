@@ -12,7 +12,7 @@ export default class Select extends React.Component {
     changeColor = () => {
         return {
             backgroundColor: sample(this.state.colors),
-            borderRadius: `${sample([20, 30, 40, 50])}%`
+            borderRadius: `${sample([10, 20, 30, 50])}%`
         }
     }
 
@@ -46,7 +46,7 @@ export default class Select extends React.Component {
                 </div>
 
                 <div>
-                    <button className="color-btn" onClick={() => this.refresh()}></button>
+                    <button className="color-btn" onClick={() => this.refresh()}>0 1</button>
                 </div>
             </div>
         )

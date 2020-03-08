@@ -9,13 +9,12 @@
 }
 
 .logo-wrap {
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
 }
 
 .slider-box {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .speed-num {
@@ -29,5 +28,4 @@
 .slider {
     width: 30%;
     cursor: pointer;
-    
 }

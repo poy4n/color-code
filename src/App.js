@@ -1,7 +1,7 @@
 import React from 'react';
 import About from './components/About';
 import Matrix from './components/Matrix';
-import Home from './components/Home';
+import Wheel from './components/Wheel';
 import Language from './components/Language';
 
 import {
@@ -21,11 +21,10 @@ export default function App() {
       <Router>
 
         <div className="header">
-          <Link className="nav" to="/">Home</Link>
+          <Link className="nav" to="/">Wheel</Link>
           <Link className="nav" to="/matrix">Matrix</Link>
-          <Link className="nav" to="/languages">Languages</Link>
-          <Link className="nav" to="/about">About</Link>
-
+          <Link className="nav" to="/languages">0 1</Link>
+          <Link className="nav" to="/about">I</Link>
         </div>
 
         <Switch>
@@ -42,7 +41,7 @@ export default function App() {
           </Route>
 
           <Route path="/">
-            <Home />
+            <Wheel />
           </Route>
 
         </Switch>

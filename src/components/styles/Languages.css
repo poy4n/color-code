@@ -21,11 +21,15 @@
 }
 
 .color-btn {
-    width: 100px;
-    height: 20px;
+    width: 80px;
+    height: 40px;
     background-color: yellow;
     border: none;
     font-family: monospace;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
     cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
