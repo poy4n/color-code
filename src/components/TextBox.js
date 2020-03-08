@@ -25,8 +25,8 @@ export default class TextBox extends React.Component {
         
         return (
             <div>
-                <h2>Morpheus : "Unfortunately no one can be told what The Matrix is,</h2>
-                <h2>You'll have to see it for yourself"</h2>
+                <h2 className="yellow">Morpheus : "Unfortunately no one can be told what The Matrix is,</h2>
+                <h2 className="yellow">You'll have to see it for yourself"</h2>
                 <div>
                     <Bar val={ charsLeft } max={ maxLength }/>
                     <textarea 
@@ -35,7 +35,7 @@ export default class TextBox extends React.Component {
                         placeholder="talk to Morpheus...">
                     </textarea>
                     <div>
-                    <span className={ charsLeft < 20 ? 'yellow' : 'green' }>{ charsLeft }</span>
+                    <h2 className={ charsLeft < 20 ? 'yellow' : 'green' }>{ charsLeft }</h2>
                     <Binary content={ content }/>
                     </div>
                 </div>

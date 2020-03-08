@@ -1,15 +1,31 @@
 .languages {
     width: 200px;
     height: 200px;
-    cursor: pointer;
-    border: 1px solid yellow;
-    text-align: center;
+    border-radius: 20%;
+    color: #16161e;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 20px 10px 20px 0 rgb(0, 0, 0);
 }
 
 .languages-box {
-    margin-top: 80px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin-top: 120px;
+    gap: 50px;
+}
 
+.color-btn {
+    width: 100px;
+    height: 20px;
+    background-color: yellow;
+    border: none;
+    font-family: monospace;
+    font-size: 15px;
+    cursor: pointer;
 }
