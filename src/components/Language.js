@@ -1,10 +1,10 @@
 import React from 'react'
-import Select from './Select'
+import Colors from './Colors'
 
 export default function Play() {
     return (
         <div>
-            <Select />
+            <Colors />
         </div>
     )
 }

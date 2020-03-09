@@ -1,5 +1,6 @@
+
 .text-boxes {
-    margin-top: 100px;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
@@ -7,16 +8,14 @@
 .text-box {
     padding: 10px 20px;
     border: 10px solid;
-    border-radius: 20px;
     font-family: monospace;
-    color: rgb(0, 0, 0);
-    
+    color: #16161e;
 
     margin-left: 5px;
     margin-right: 5px;
     font-size: 20px;
     width: 1000px;
-    height: 100px;
+    height: 50px;
 }
 
 .yellow {

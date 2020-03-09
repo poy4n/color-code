@@ -6,13 +6,13 @@ export default class Select extends React.Component {
 
     state = {
       languages: ['Ruby 1995', 'JavaScript 1995', 'PHP 1995', 'Java 1995', 'Scala 2004', 'Elixir 2011', 'Crystal 2014', 'Haskell 1990', 'C# 2000', 'Python 1990', 'C++ 1985', 'Go 2009'],
-      colors: ['#FFCC80', '#FFF59D', '#C5E1A5', '#80CBC4', '#9FA8DA', '#CE93D8', '#EF9A9A',  '#FFAB91', '#F48FB1', '#B39DDB' , '#E6EE9C', '#A5D6A7']
+      colors: ['#16161e', '#DC7633', '#F4D03F', '#A569BD', '#CD6155', '#5499C7', '#52BE80', '#F0F3F4']
     }
   
     changeColor = () => {
         return {
             backgroundColor: sample(this.state.colors),
-            borderRadius: `${sample([10, 20, 30, 50])}%`
+            borderRadius: `${sample([0, 50])}%`
         }
     }
 
@@ -23,13 +23,13 @@ export default class Select extends React.Component {
     }
 
     renderLanguages = (language, index) => {
-        let each = language.split(' ')
-        console.log(each)
+        // let each = language.split(' ')
+        // console.log(each)
         return (
             <div>
                 <div style={ this.changeColor(index) } className="languages" key={index}>
-                    <h3>{ each[0] }</h3>
-                    <h3>{ each[1] }</h3>
+                    {/* <h3>{ each[0] }</h3> */}
+                    {/* <h3>{ each[1] }</h3> */}
                 </div>
             </div>
         )
@@ -39,10 +39,15 @@ export default class Select extends React.Component {
 
         const { languages } = this.state
 
+        const boxes = [];
+        for (let i = 1; i <=910; i++) {
+            boxes.push(i);
+        }
+
         return (
             <div>
                 <div className="languages-box">
-                    {shuffle(languages.map( this.renderLanguages ))}
+                    {shuffle(boxes.map( this.renderLanguages ))}
                 </div>
 
                 <div>

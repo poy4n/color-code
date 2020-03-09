@@ -1,11 +1,11 @@
 import React from 'react'
 import Logo from './Logo';
-import Menu from './Menu';
+import Works from './Works';
 
 export default function Home() {
     return (
         <div>
-            <Menu />
+            <Works />
             <Logo />
         </div>
     )

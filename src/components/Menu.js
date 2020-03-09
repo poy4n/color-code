@@ -6,7 +6,7 @@ import './styles/Menu.css';
 export default class Mene extends Component {
     state = {
         isClicked: false,
-        colors: ['#FFCC80', '#FFF59D', '#C5E1A5', '#80CBC4', '#9FA8DA', '#CE93D8', '#EF9A9A',  '#FFAB91', '#F48FB1', '#B39DDB' , '#E6EE9C', '#A5D6A7']
+        colors: ['#E1BEE7', '#C5CAE9', '#B3E5FC', '#C8E6C9', '#FFF3E0', '#FFCCBC']
     }
 
     handleClick = () => {
@@ -36,8 +36,12 @@ export default class Mene extends Component {
                 url: 'https://www.instagram.com/solitarius.digital/'
             },
             {
-                label: 'p o u y a n',
-                url: 'http://localhost:3000/about'
+                label: 'Wheel',
+                url: 'http://localhost:3000/'
+            },
+            {
+                label: '',
+                url: ''
             },
         ]
 

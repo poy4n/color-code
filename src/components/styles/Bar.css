@@ -1,12 +1,12 @@
 .bar-wrapper {
-    border: 1px solid yellow;
+    border-bottom: 2px solid yellow;
     margin-bottom: 20px;
     background-image: url('https://wallpapercave.com/wp/wp3496493.png');
     background-repeat: no-repeat;
 }
 
 .bar {
-    background: linear-gradient(10deg, rgb(104, 105, 129) 30%, rgb(82, 139, 85) 50%, rgb(104, 105, 129) 70%);
-    height: 300px;
-    transition: all 300ms linear;
+    height: 400px;
+    background: #16161e;
+    transition: all 100ms linear;
 }

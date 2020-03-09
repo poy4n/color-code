@@ -1,6 +1,6 @@
 .languages {
-    width: 200px;
-    height: 200px;
+    width: 25px;
+    height: 25px;
     border-radius: 20%;
     color: #16161e;
     margin: auto;
@@ -10,26 +10,26 @@
     font-family: monospace;
     display: flex;
     flex-direction: column;
-    box-shadow: 20px 10px 20px 0 rgb(0, 0, 0);
 }
 
 .languages-box {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    margin-top: 120px;
-    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    margin-top: 80px;
+    gap: 5px;
 }
 
 .color-btn {
-    width: 80px;
-    height: 40px;
-    background-color: yellow;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(48, 150, 45);
     border: none;
     font-family: monospace;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    margin-top: 20px;
+    position: fixed;
     margin-bottom: 20px;
-
+    margin-top: 20px;
 }
+

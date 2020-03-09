@@ -5,13 +5,12 @@
 }
 
 .menu {
-    width: 15vw;
+    width: 20vw;
     position: absolute;
     top: 50;
     z-index: 999;
-    background-color: #fff;
     left: -22vw;
-    transition: left 0.3s ease-in;
+    transition: left 0.2s ease-in;
 }
 
 .menu.show {
@@ -47,4 +46,13 @@
     border: 2px solid #16161e;
     font-family: monospace;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .menu-button, .menu-container {
+        display: none;
+    }
+
+
 }

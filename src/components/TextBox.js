@@ -25,10 +25,10 @@ export default class TextBox extends React.Component {
         
         return (
             <div>
-                <h2 className="yellow">Morpheus : "Unfortunately no one can be told what The Matrix is,</h2>
-                <h2 className="yellow">You'll have to see it for yourself"</h2>
                 <div>
                     <Bar val={ charsLeft } max={ maxLength }/>
+                    <h3 className="yellow">Morpheus : Unfortunately no one can be told what The Matrix is,</h3>
+                    <h3 className="yellow">You'll have to see it for yourself...</h3>
                     <textarea 
                         className="text-box"
                         onChange={ this.handleChange }
