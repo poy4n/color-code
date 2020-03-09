@@ -13,7 +13,7 @@ function stringToBinary(input) {
 export default function Binary(props) {
     return (
         <div>
-            <h2 className="green">{ stringToBinary(props.content) }</h2>
+            <h3 className="green">{ stringToBinary(props.content) }</h3>
         </div>
     )
 }

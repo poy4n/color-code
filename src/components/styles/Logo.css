@@ -11,10 +11,12 @@
 .logo-wrap {
     display: flex;
     flex-direction: column;
+    margin-top: -30px;
+
 }
 
-.slider-box {
-    margin-top: 50px;
+.logo img {
+    width: 35%;
 }
 
 .speed-num {
@@ -28,4 +30,14 @@
 .slider {
     width: 30%;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+   .logo img {
+       width: 70%;
+   }
+
+   .logo-wrap {
+        margin-top: 80px;
+    }   
 }

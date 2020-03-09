@@ -25,10 +25,10 @@ export default class Logo extends React.Component {
                 <div style={ speed } className="logo">
                     <img src={ image } />
                 </div>
-                <div className="slider-box">
+                <h2 className="speed-num">{ number }</h2>
+                <div>
                     <input className="slider" onChange={ this.handleUp } type="range" value={ number } min="0" max="2020" step="101"></input>
                 </div>
-                    <h2 className="speed-num">{ number }</h2>
             </div>
         )
     }

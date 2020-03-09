@@ -2,7 +2,7 @@ import React from 'react';
 import About from './components/About';
 import Matrix from './components/Matrix';
 import Wheel from './components/Wheel';
-import Language from './components/Language';
+import ColorBox from './components/ColorBox';
 
 import {
   BrowserRouter as Router,
@@ -33,7 +33,7 @@ export default function App() {
           </Route>
 
           <Route path="/languages">
-            <Language />
+            <ColorBox />
           </Route>
 
           <Route path="/matrix">

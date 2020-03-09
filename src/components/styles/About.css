@@ -1,6 +1,4 @@
-.about {
-    margin-top: 50px;
-}
+
 .white {
     color: white;
     font-family: monospace;
@@ -13,6 +11,11 @@
 .white:hover {
     background-color: yellow;
     color: black;
+}
+
+.about-box {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .about1 {
