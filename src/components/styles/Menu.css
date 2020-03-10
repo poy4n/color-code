@@ -10,7 +10,7 @@
     top: 50;
     z-index: 999;
     left: -22vw;
-    transition: left 0.2s ease-in;
+    transition: left 0.5s ease-in;
 }
 
 .menu.show {

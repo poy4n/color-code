@@ -2,19 +2,83 @@
     margin-top: 50px;
 }
 
-.text {
-    color: #16161e;
+.text1 {
+    color: #F0F3F4;
     font-family: monospace;
-    border: 1px solid rgb(9, 255, 0);
     padding: 10px;
     font-size: 20px;
     margin-bottom: 10px;
+    background-color: #F0F3F4;
 }
 
-.text:hover {
+.box1 {
+    margin-top: 100px;
+}
+
+.text2 {
+    color: #A569BD;
+    font-family: monospace;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #A569BD;
+}
+
+.box2 {
+    margin-top: 250px;
+}
+
+.text3 {
+    color: #5499C7;
+    font-family: monospace;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #5499C7;
+}
+
+.box3 {
+    margin-top: 200px;
+}
+
+.text4 {
+    color: #CD6155;
+    font-family: monospace;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #CD6155;
+}
+
+.box4 {
+    margin-top: 20px;
+}
+
+.text5 {
+    color: #52BE80;
+    font-family: monospace;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #52BE80;
+}
+
+.text6 {
+    color: #F4D03F;
+    font-family: monospace;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #F4D03F;
+}
+
+.text1:hover,
+.text2:hover,
+.text3:hover,
+.text4:hover,
+.text5:hover,
+.text6:hover {
     background-color: #16161e;
-    border: 1px solid #16161e;
-    color: rgb(9, 255, 0);
     cursor: grab;
     color: yellow;
 }
@@ -32,5 +96,11 @@
     .about-box {
         display: grid;
         grid-template-columns: 1fr
+    }
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        margin-top: 0;
     }
 }

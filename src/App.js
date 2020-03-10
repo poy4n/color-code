@@ -23,10 +23,10 @@ export default function App() {
       <Router>
 
         <div className="header">
-          <Link className="nav" to="/about">I</Link>
+          <Link className="nav" to="/about">About</Link>
+          <Link className="nav" to="/matrix">Matrix</Link>
           <Link className="nav" to="/play">Play</Link>
           <Link className="nav" to="/color">Color</Link>
-          <Link className="nav" to="/matrix">Matrix</Link>
           <Link className="nav" to="/">Wheel</Link>
         </div>
 

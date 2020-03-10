@@ -1,0 +1,23 @@
+
+.each-box {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.box {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.each-box:hover {
+    cursor: pointer;
+}
+
+.details{
+    color: yellow;
+}

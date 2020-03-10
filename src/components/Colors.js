@@ -22,7 +22,7 @@ export default class Select extends React.Component {
         })
     }
 
-    renderLanguages = (language, index) => {
+    renderBoxes = (language, index) => {
         return (
             <div>
                 <div style={ this.changeColor(index) } className="colors" key={index}></div>
@@ -41,7 +41,7 @@ export default class Select extends React.Component {
             <div className="canvas">
                 <h2>choose your color</h2>
                 <div onClick={() => this.refresh()} className="color-box">
-                    {shuffle(boxes.map( this.renderLanguages ))}
+                    {shuffle(boxes.map( this.renderBoxes ))}
                 </div>
             </div>
         )
