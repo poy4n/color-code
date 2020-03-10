@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { sample, shuffle } from 'lodash'
+import { sample } from 'lodash'
 
 import './styles/Menu.css';
 
@@ -24,8 +24,8 @@ export default class Mene extends Component {
     render() {
         const links = [
             {
-                label: 'TicTacToe',
-                url: 'https://poy4n.github.io/tictactoe/'
+                label: '',
+                url: ''
             },
             {
                 label: 'Emotions',
@@ -36,8 +36,16 @@ export default class Mene extends Component {
                 url: 'https://beasuf.github.io/flash_zoo_client/'
             },
             {
+                label: 'TicTacToe',
+                url: 'https://poy4n.github.io/tictactoe/'
+            },
+            {
                 label: 'SolarSystem',
                 url: 'https://solar-planets-app.herokuapp.com/'
+            },
+            {
+                label: 'Paint',
+                url: 'https://poy4n.github.io/paint/'
             },
             {
                 label: '',
@@ -55,11 +63,11 @@ export default class Mene extends Component {
                 { links.length && (
                     <nav className={ `menu ${isClicked ? 'show' : ''}` }>
                         <ul className="menu-items">
-                            { shuffle(links.map(item => (
+                            { links.map(item => (
                                 <li style={ this.changeColor(item.label) } className="menu-list" key={ item.label }>
                                     <a className="menu-link" href={ item.url } target="_blank">{ item.label }</a>
                                 </li>
-                            )))}
+                            ))}
                         </ul>
                     </nav>
                 )} 

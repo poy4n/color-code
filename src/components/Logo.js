@@ -23,7 +23,7 @@ export default class Logo extends React.Component {
         return (
             <div className="logo-wrap">
                 <div style={ speed } className="logo">
-                    <img src={ image } />
+                    <img src={ image } alt="there is a wheel"/>
                 </div>
                 <h2 className="speed-num">{ number }</h2>
                 <div>

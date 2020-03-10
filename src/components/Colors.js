@@ -12,7 +12,7 @@ export default class Select extends React.Component {
     changeColor = () => {
         return {
             backgroundColor: sample(this.state.colors),
-            borderRadius: `${sample([0, 50])}%`
+            borderRadius: `${sample([0, 25, 50])}%`
         }
     }
 
@@ -23,36 +23,26 @@ export default class Select extends React.Component {
     }
 
     renderLanguages = (language, index) => {
-        // let each = language.split(' ')
-        // console.log(each)
         return (
             <div>
-                <div style={ this.changeColor(index) } className="colors" key={index}>
-                    {/* <h3>{ each[0] }</h3> */}
-                    {/* <h3>{ each[1] }</h3> */}
-                </div>
+                <div style={ this.changeColor(index) } className="colors" key={index}></div>
             </div>
         )
     }
 
     render() {
 
-        const { languages } = this.state
-
         const boxes = [];
-        for (let i = 1; i <=700; i++) {
+        for (let i = 1; i <=2037; i++) {
             boxes.push(i);
         }
 
         return (
             <div className="canvas">
-                <div>
-                    <button className="color-btn" onClick={() => this.refresh()}>0 1</button>
-                </div>
-                <div className="color-box">
+                <h2>choose your color</h2>
+                <div onClick={() => this.refresh()} className="color-box">
                     {shuffle(boxes.map( this.renderLanguages ))}
                 </div>
-
             </div>
         )
     }

@@ -6,7 +6,7 @@
 }
 
 .bar {
-    height: 350px;
+    height: 300px;
     background-image: linear-gradient(to left,#F4D03F,#A569BD,#CD6155,#5499C7,#52BE80,#F0F3F4);
     transition: all 100ms linear;
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { sample, shuffle } from 'lodash'
+import { sample } from 'lodash'
 
 import './styles/Menu.css';
 
@@ -23,6 +23,10 @@ export default class Mene extends Component {
 
     render() {
         const links = [
+             {
+                label: '',
+                url: ''
+            },
             {
                 label: 'LinkedIn',
                 url: 'https://www.linkedin.com/in/pouyanmadanipour/'
@@ -36,10 +40,6 @@ export default class Mene extends Component {
                 url: 'https://www.instagram.com/solitarius.digital/'
             },
             {
-                label: 'Wheel',
-                url: 'http://localhost:3000/'
-            },
-            {
                 label: '',
                 url: ''
             },
@@ -48,18 +48,18 @@ export default class Mene extends Component {
         const { isClicked } = this.state
         return (
             <div className="menu-container">
-                <div className="menu-button" onClick={ this.handleClick }>
+                <div className="menu-button2" onClick={ this.handleClick }>
                     <i className="fal fa-bars"></i>
                 </div>
 
                 { links.length && (
                     <nav className={ `menu ${isClicked ? 'show' : ''}` }>
                         <ul className="menu-items">
-                            { shuffle(links.map(item => (
+                            { links.map(item => (
                                 <li style={ this.changeColor(item.label) } className="menu-list" key={ item.label }>
                                     <a className="menu-link" href={ item.url } target="_blank">{ item.label }</a>
                                 </li>
-                            )))}
+                            ))}
                         </ul>
                     </nav>
                 )} 

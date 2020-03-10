@@ -1,28 +1,19 @@
+h2 {
+    color: yellow;
+}
+
 .colors {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     margin: auto;
 }
 
 .color-box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    margin-top: 80px;
-    gap: 5px;
-}
-
-.color-btn {
-    width: 50px;
-    height: 30px;
-    background-color: rgb(48, 150, 45);
-    border: none;
-    font-family: monospace;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    position: fixed;
-    margin-bottom: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 5px;
 }
 
 .canvas {

@@ -1,6 +1,6 @@
 .header {
     background-color: #16161e;
-    border-bottom: 2px solid yellow;
+    border-bottom: 1px solid yellow;
     position: fixed;
     height: 30px;
     width: 100%;
@@ -30,7 +30,7 @@
     .nav  {
         float: left;
         font-size: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }

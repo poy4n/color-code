@@ -3,6 +3,8 @@ import About from './components/About';
 import Matrix from './components/Matrix';
 import Wheel from './components/Wheel';
 import ColorBox from './components/ColorBox';
+import Play from './components/Play';
+
 
 import {
   BrowserRouter as Router,
@@ -22,7 +24,8 @@ export default function App() {
 
         <div className="header">
           <Link className="nav" to="/about">I</Link>
-          <Link className="nav" to="/languages">0 1</Link>
+          <Link className="nav" to="/play">Play</Link>
+          <Link className="nav" to="/color">Color</Link>
           <Link className="nav" to="/matrix">Matrix</Link>
           <Link className="nav" to="/">Wheel</Link>
         </div>
@@ -32,12 +35,16 @@ export default function App() {
             <About />
           </Route>
 
-          <Route path="/languages">
+          <Route path="/color">
             <ColorBox />
           </Route>
 
           <Route path="/matrix">
             <Matrix />
+          </Route>
+
+          <Route path="/play">
+            <Play />
           </Route>
 
           <Route path="/">

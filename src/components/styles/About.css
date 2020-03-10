@@ -1,54 +1,36 @@
+.about {
+    margin-top: 50px;
+}
 
-.white {
-    color: white;
+.text {
+    color: #16161e;
     font-family: monospace;
-    border: 1px solid yellow;
+    border: 1px solid rgb(9, 255, 0);
     padding: 10px;
     font-size: 20px;
     margin-bottom: 10px;
-
 }
-.white:hover {
-    background-color: yellow;
-    color: black;
+
+.text:hover {
+    background-color: #16161e;
+    border: 1px solid #16161e;
+    color: rgb(9, 255, 0);
+    cursor: grab;
+    color: yellow;
 }
 
 .about-box {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.about1 {
-    width: 300px;
-    height: 250px;
-    margin-left: 50px;
-    margin-top: 110px;
-}
-
-.about2 {
-    width: 200px;
-    height: 300px;
-    margin-left: 510px;
-    margin-top: -200px;
-}
-
-.about3 {
-    width: 300px;
-    height: 300px;
-    margin-left: 860px;
-    margin-top: -150px;
-}
-
-.about4 {
-    width: 500px;
-    height: 300px;
-    margin-left: 1350px;
-    margin-top: -500px;
-}
-
-.about5 {
-    width: 300px;
-    height: 300px;
-    margin-left: 1300px;
-    margin-top: 0px;
+@media only screen and (max-width: 1000px) {
+    .about-box {
+        display: grid;
+        grid-template-columns: 1fr
+    }
 }
