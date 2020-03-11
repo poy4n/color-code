@@ -23,13 +23,13 @@ export default class Logo extends React.Component {
                 <div style={ speed } className="logo">
                     <img src={ image } alt="there is a wheel"/>
                 </div>
-                <h2 className="speed-num">{ `${number} ms` }</h2>
-                <div>
+                <div className="slider-box">
+                    <h2 className="speed-num">{ `${number} ms` }</h2>
                     <span className="speed-num">Fast</span>
                     <input className="slider" onChange={ this.handleUp } type="range" value={ number } min="0" max="2020" step="101"></input>
                     <span className="speed-num">Slow</span>
+                    <p className="message" >hold and drag or double click</p>
                 </div>
-                <p className="message" >double click or hold and drag the slider</p>
             </div>
         )
     }

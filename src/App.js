@@ -24,11 +24,11 @@ export default function App() {
       <Router>
 
         <div className="header">
-          <Link className="nav" to="/matrix">0 1</Link>
+          <Link className="nav" to="/matrix">Matrix</Link>
           <Link className="nav" to="/wheel">Wheel</Link>
           <Link className="nav" to="/play">Play</Link>
-          <Link className="nav" to="/rainbow">Rainbow</Link>
-          <Link className="nav" to="/">About</Link>
+          <Link className="nav" to="/colors">Colors</Link>
+          <Link className="nav" to="/">Resume</Link>
         </div>
 
         <Switch>
@@ -41,7 +41,7 @@ export default function App() {
             <Matrix />
           </Route>
 
-          <Route path="/rainbow">
+          <Route path="/colors">
             <Rainbow />
           </Route>
 

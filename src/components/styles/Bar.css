@@ -1,6 +1,6 @@
 
 .bar-wrapper {
-    border-bottom: 2px solid yellow;
+    border-bottom: 2px solid white;
     margin-bottom: 20px;
     background-image: url('https://wallpapercave.com/wp/wp3496493.png');
     background-repeat: no-repeat;
@@ -10,5 +10,5 @@
     height: 310px;
     background-color: #16161e;
     transition: all 100ms linear;
-    background-image: linear-gradient(to left,#F4D03F,#A569BD,#CD6155,#5499C7,#52BE80,#F0F3F4);
+    background-image: linear-gradient(to left,#F4D03F,#A569BD,#5499C7,rgb(82, 190, 100));
 }

@@ -1,6 +1,5 @@
 .header {
-    background-color: #16161e;
-    border-bottom: 1px solid yellow;
+    background-color: rgb(233, 233, 233);
     position: fixed;
     height: 30px;
     width: 100%;
@@ -17,13 +16,17 @@
     text-decoration: none;
     font-family: monospace;
     font-size: 20px;
-    color: white;
+    color: #16161e;
     margin-right: 25px;
 }
 
 .nav:hover {
-    background-color: yellow;
-    color: black;
+    background-color: #16161e;
+    color: white;
+}
+
+.nav:active {
+    background-color: #16161e;
 }
 
 @media only screen and (max-width: 1000px) {

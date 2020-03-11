@@ -1,4 +1,9 @@
 
+h2 {
+    color: white;
+    font-family: monospace;
+}
+
 .text-boxes {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -17,18 +22,15 @@
     height: 50px;
 }
 
-.yellow {
-    color: yellow;
+.white {
+    color: white;
     font-weight: bold;
+    font-family: monospace;
 }
 
 .green {
     color: rgb(9, 255, 0);
     font-weight: bold;
-}
-
-h2 {
-    color: white;
     font-family: monospace;
 }
 

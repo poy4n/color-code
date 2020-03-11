@@ -23,7 +23,7 @@ export default class Mene extends Component {
 
     render() {
         const links = [
-             {
+            {
                 label: '',
                 url: ''
             },
@@ -36,8 +36,12 @@ export default class Mene extends Component {
                 url: 'https://github.com/poy4n'
             },
             {
-                label: 'Instagram',
+                label: 'VisualWorks',
                 url: 'https://www.instagram.com/solitarius.digital/'
+            },
+            {
+                label: 'GA Profile',
+                url: 'https://profiles.generalassemb.ly/profiles/pouyanmadanipour'
             },
             {
                 label: '',
@@ -48,7 +52,7 @@ export default class Mene extends Component {
         return (
             <div className="menu-container">
                 <div className="menu-button" onClick={ this.handleClick }>
-                    <i className="fal fa-bars"></i>
+                    <i className="fas fa-bars"></i>
                 </div>
 
                 { links.length && (

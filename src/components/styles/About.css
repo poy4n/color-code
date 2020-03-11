@@ -1,5 +1,14 @@
 .about {
-    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.about-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .text1 {
@@ -9,10 +18,15 @@
     font-size: 20px;
     margin-bottom: 10px;
     background-color: #DC7633;
+    border: 2px solid white;
+}
+
+h2 {
+    font-family: monospace;
 }
 
 .box1 {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .text2 {
@@ -22,10 +36,11 @@
     font-size: 20px;
     margin-bottom: 10px;
     background-color: #A569BD;
+    border: 2px solid white;
 }
 
 .box2 {
-    margin-top: 250px;
+    margin-top: 270px;
 }
 
 .text3 {
@@ -35,6 +50,7 @@
     font-size: 20px;
     margin-bottom: 10px;
     background-color: #5499C7;
+    border: 2px solid white;
 }
 
 .box3 {
@@ -48,10 +64,11 @@
     font-size: 20px;
     margin-bottom: 10px;
     background-color: #CD6155;
+    border: 2px solid white;
 }
 
 .box4 {
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .text5 {
@@ -61,6 +78,7 @@
     font-size: 20px;
     margin-bottom: 10px;
     background-color: #52BE80;
+    border: 2px solid white;
 }
 
 .text6 {
@@ -70,6 +88,7 @@
     font-size: 20px;
     margin-bottom: 10px;
     background-color: #F4D03F;
+    border: 2px solid white;
 }
 
 .text1:hover,
@@ -81,14 +100,6 @@
     background-color: #16161e;
     cursor: grab;
     color: yellow;
-}
-
-.about-box {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    gap: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 @media only screen and (max-width: 1000px) {

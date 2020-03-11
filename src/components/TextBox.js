@@ -18,7 +18,6 @@ export default class TextBox extends React.Component {
     }
     
     render() {
-
         const maxLength = 101
         const content = this.state.content
         const charsLeft = maxLength - content.length
@@ -26,16 +25,15 @@ export default class TextBox extends React.Component {
             <div>
                 <div>
                     <Bar val={ charsLeft } max={ maxLength }/>
-                    <h3 className="yellow">Morpheus : Unfortunately no one can be told what The Matrix is,</h3>
-                    <h3 className="yellow">You'll have to see it for yourself...</h3>
+                    <h2 className="white">Morpheus : Unfortunately no one can be told what The Matrix is,</h2>
+                    <h2 className="white">You'll have to see it for yourself...</h2>
                     <textarea 
                         className="text-box"
                         onChange={ this.handleChange }
                         placeholder="talk to Morpheus...">
                     </textarea>
                     <div>
-                    <h2 className={ charsLeft < 20 ? 'yellow' : 'green' }>{ charsLeft }</h2>
-                    <Binary content={ content }/>
+                        <Binary content={ content }/>
                     </div>
                 </div>
             </div>

@@ -56,7 +56,7 @@ export default class Mene extends Component {
         return (
             <div className="menu-container">
                 <div className="menu-button2" onClick={ this.handleClick }>
-                    <i className="fas fa-circle"></i>
+                    <i className="fas fa-bars"></i>
                 </div>
 
                 { links.length && (

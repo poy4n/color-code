@@ -15,16 +15,17 @@
 }
 
 .message {
-    color: yellow;
+    color: white;
+    font-family: monospace;
 }
 
 .logo img {
-    width: 40%;
+    width: 35%;
     user-select: none;
 }
 
 .speed-num {
-    color: yellow;
+    color: white;
     margin: 50px;
     font-family: monospace;
     font-size: 20px;
@@ -35,6 +36,10 @@
 .slider {
     width: 30%;
     cursor: pointer;   
+}
+
+.slider-box {
+    margin-top: 80px;
 }
 
 @media only screen and (max-width: 1000px) {

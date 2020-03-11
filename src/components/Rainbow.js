@@ -53,14 +53,16 @@ export default class ColorPsy extends React.Component{
         this.setState({
             rainbow: [...this.state.rainbow, color],
         })
-        console.log(color)
     }
 
     addRainbow = (index) => {
         return {
             height: '15px',
             backgroundColor: `${this.state.rainbow[index].color}`,
-            borderRadius: `${[50]}%`
+            borderRadius: `${[50]}%`,
+            width: '80%',
+            display: 'flex',
+            margin: 'auto'
         }
     }
 
@@ -78,8 +80,7 @@ export default class ColorPsy extends React.Component{
         return (
             <div>
                 <Works />
-                <h2>make a rainbow</h2>
-
+                <h2>colors have messages</h2>
                 <div>
                     <div className="box">
                         {colors.map((color, index) =>  (
@@ -88,7 +89,7 @@ export default class ColorPsy extends React.Component{
                                     className="each-box"
                                     style={ this.changeColor(index) }
                                     onMouseEnter={() => this.setState({ selectedColor: color })}
-                                    onClick={() => this.add(color) }
+                                    onMouseOut={() => this.add(color) }
                                     key={index}>
                                 </div>
                             </div>
