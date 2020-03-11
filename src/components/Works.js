@@ -52,12 +52,11 @@ export default class Mene extends Component {
                 url: ''
             },
         ]
-        
         const { isClicked } = this.state
         return (
             <div className="menu-container">
-                <div className="menu-button" onClick={ this.handleClick }>
-                    <i className="fal fa-bars"></i>
+                <div className="menu-button2" onClick={ this.handleClick }>
+                    <i className="fas fa-circle"></i>
                 </div>
 
                 { links.length && (

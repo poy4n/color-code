@@ -31,15 +31,13 @@ export default class Select extends React.Component {
     }
 
     render() {
-
         const boxes = [];
-        for (let i = 1; i <=2037; i++) {
+        for (let i = 1; i <=2024; i++) {
             boxes.push(i);
         }
-
         return (
             <div className="canvas">
-                <h2>choose your color</h2>
+                <h2>click fast</h2>
                 <div onClick={() => this.refresh()} className="color-box">
                     {shuffle(boxes.map( this.renderBoxes ))}
                 </div>

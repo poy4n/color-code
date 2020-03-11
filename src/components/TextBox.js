@@ -22,7 +22,6 @@ export default class TextBox extends React.Component {
         const maxLength = 101
         const content = this.state.content
         const charsLeft = maxLength - content.length
-        
         return (
             <div>
                 <div>

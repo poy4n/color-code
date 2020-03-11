@@ -3,7 +3,7 @@ import About from './components/About';
 import Matrix from './components/Matrix';
 import Wheel from './components/Wheel';
 import ColorBox from './components/ColorBox';
-import Play from './components/Play';
+import Rainbow from './components/Rainbow';
 
 
 import {
@@ -18,24 +18,22 @@ import './components/styles/Logo.css';
 import './components/styles/Header.css';
 
 export default function App() {
+
   return (
     <div className="App">
       <Router>
 
         <div className="header">
-          <Link className="nav" to="/about">About</Link>
-          <Link className="nav" to="/matrix">Matrix</Link>
+          <Link className="nav" to="/matrix">0 1</Link>
+          <Link className="nav" to="/wheel">Wheel</Link>
           <Link className="nav" to="/play">Play</Link>
-          <Link className="nav" to="/color">Color</Link>
-          <Link className="nav" to="/">Wheel</Link>
+          <Link className="nav" to="/rainbow">Rainbow</Link>
+          <Link className="nav" to="/">About</Link>
         </div>
 
         <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
 
-          <Route path="/color">
+          <Route path="/play">
             <ColorBox />
           </Route>
 
@@ -43,14 +41,18 @@ export default function App() {
             <Matrix />
           </Route>
 
-          <Route path="/play">
-            <Play />
+          <Route path="/rainbow">
+            <Rainbow />
           </Route>
 
-          <Route path="/">
+          <Route path="/wheel">
             <Wheel />
           </Route>
 
+          <Route path="/">
+            <About />
+          </Route>
+          
         </Switch>
 
       </Router>

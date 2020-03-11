@@ -1,14 +1,14 @@
 .about {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .text1 {
-    color: #F0F3F4;
+    color: #DC7633;
     font-family: monospace;
     padding: 10px;
     font-size: 20px;
     margin-bottom: 10px;
-    background-color: #F0F3F4;
+    background-color: #DC7633;
 }
 
 .box1 {
@@ -38,7 +38,7 @@
 }
 
 .box3 {
-    margin-top: 200px;
+    margin-top: 195px;
 }
 
 .text4 {
@@ -51,7 +51,7 @@
 }
 
 .box4 {
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 .text5 {
@@ -87,7 +87,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     gap: 10px;
-    margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
 }

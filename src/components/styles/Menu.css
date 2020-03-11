@@ -1,16 +1,17 @@
 .menu-container {
     position: relative;
     margin-left: 10px;
-    margin-top: 50px; 
+    width: 20px;
 }
 
 .menu {
-    width: 20vw;
+    width: 19.5vw;
     position: absolute;
     top: 50;
     z-index: 999;
     left: -22vw;
     transition: left 0.5s ease-in;
+    margin-top: 25px;
 }
 
 .menu.show {
@@ -38,22 +39,33 @@
     color: yellow;
 }
 
-
 .menu-button2 {
     display: flex;
     position: relative;
-    font-size: 50px;
+    font-size: 30px;
     cursor: pointer;
-    color: rgb(9, 255, 0);
+    color: yellow;
+    margin-top: 10px;
+}
+
+
+.menu2 {
+    width: 19.5vw;
+    position: absolute;
+    top: 50;
+    z-index: 999;
+    transition: left 0.5s ease-in;
+    margin-top: 15px;
+
 }
 
 .menu-link {
-    text-decoration: none;
     color: #16161e;
     padding: 10px 15px;
     display: flex;
     border: 2px solid #16161e;
     font-family: monospace;
+    text-decoration: none;
     font-size: 20px;
 }
 
