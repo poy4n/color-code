@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import About from './components/About';
 import Matrix from './components/Matrix';
 import Wheel from './components/Wheel';
 import ColorBox from './components/ColorBox';
 import Rainbow from './components/Rainbow';
-
+import Home from './components/Home';
 
 import {
   BrowserRouter as Router,
@@ -18,22 +18,50 @@ import './components/styles/Logo.css';
 import './components/styles/Header.css';
 
 export default function App() {
+  
+  const [nav, setNav] = useState([
+    {className: 'nav', route: '/wheel', name: 'Wheel'},
+    {className: 'nav', route: '/matrix', name: 'Matrix'},
+    {className: 'nav', route: '/dance', name: 'Dance'},
+    {className: 'nav', route: '/colors', name: 'Colors'},
+    {className: 'nav', route: '/about', name: 'Resume'},
+    {className: 'nav', route: '/', name: 'Home'}
+  ])
+
+  const toggleClass = (className) => className === 'nav' ? 'active' : 'nav'
+
+  const changeClass = (indexOfLinkToChange) => {
+    const newNav = nav.map((link, i) => {
+      let newLink = { ...link };
+      if (i !== indexOfLinkToChange) {
+        newLink.className = 'nav'
+        return newLink
+      } else {
+        newLink.className = toggleClass(newLink.className)
+        return newLink;
+      }
+    })
+    setNav(newNav)
+  }
 
   return (
     <div className="App">
       <Router>
 
         <div className="header">
-          <Link className="nav" to="/matrix">Matrix</Link>
-          <Link className="nav" to="/wheel">Wheel</Link>
-          <Link className="nav" to="/play">Play</Link>
-          <Link className="nav" to="/colors">Colors</Link>
-          <Link className="nav" to="/">Resume</Link>
+          {nav.map((link, i) =>
+            <Link
+              key={i}
+              onClick={() => changeClass(i)}
+              className={link.className}
+              to={link.route}
+            >{link.name}</Link>
+          )}
         </div>
 
         <Switch>
 
-          <Route path="/play">
+          <Route path="/dance">
             <ColorBox />
           </Route>
 
@@ -49,8 +77,12 @@ export default function App() {
             <Wheel />
           </Route>
 
-          <Route path="/">
+          <Route path="/about">
             <About />
+          </Route>
+
+          <Route path="/">
+            <Home />
           </Route>
           
         </Switch>

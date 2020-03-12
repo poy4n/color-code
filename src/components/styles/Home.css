@@ -1,0 +1,49 @@
+
+.home {
+    margin-top: 50px;
+}
+
+h2 {
+    color: white;
+    font-family: monospace;
+}
+
+.color-btn {
+    margin-top: 20px;
+    width: 500px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 0 rgb(0, 0, 0);
+    font-family: monospace;
+
+}
+
+.one {
+    color: #DC7633;
+    font-size: 25px;
+}
+
+.two {
+    color: #A569BD;
+    font-size: 25px;
+}
+
+.three {
+    color: #5499C7;
+    font-size: 25px;
+}
+
+.four {
+    color: #CD6155;
+    font-size: 25px;
+}
+
+.five {
+    color: #52BE80;
+    font-size: 25px;
+}
+
+.six {
+    color: #F4D03F;
+    font-size: 25px;
+}

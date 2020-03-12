@@ -55,16 +55,16 @@ export default class Mene extends Component {
         const { isClicked } = this.state
         return (
             <div className="menu-container">
-                <div className="menu-button2" onClick={ this.handleClick }>
+                <div className="menu-button2" onClick={this.handleClick}>
                     <i className="fas fa-bars"></i>
                 </div>
 
-                { links.length && (
-                    <nav className={ `menu ${isClicked ? 'show' : ''}` }>
+                {links.length && (
+                    <nav className={ `menu ${isClicked ? 'show' : ''}`}>
                         <ul className="menu-items">
                             { links.map(item => (
-                                <li style={ this.changeColor(item.label) } className="menu-list" key={ item.label }>
-                                    <a className="menu-link" href={ item.url } target="_blank">{ item.label }</a>
+                                <li style={this.changeColor(item.label)} className="menu-list" key={item.label}>
+                                    <a className="menu-link" href={item.url} target="_blank">{item.label}</a>
                                 </li>
                             ))}
                         </ul>

@@ -24,7 +24,8 @@
 }
 
 .menu-link:hover {
-    background-color: white;
+    background-color: #16161e;
+    color: white;
 }
 
 .menu-list {

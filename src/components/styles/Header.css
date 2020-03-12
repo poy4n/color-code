@@ -10,9 +10,8 @@
 
 .nav {
     float: right;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-decoration: none;
     font-family: monospace;
     font-size: 20px;
@@ -20,13 +19,24 @@
     margin-right: 25px;
 }
 
-.nav:hover {
-    background-color: #16161e;
+.active {
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
     color: white;
+    margin-right: 25px;
+    background-color: #16161e;;
 }
 
-.nav:active {
+.nav:hover {
+    padding-bottom: 20px;
+
     background-color: #16161e;
+    color: white;
 }
 
 @media only screen and (max-width: 1000px) {

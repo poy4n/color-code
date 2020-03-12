@@ -48,6 +48,7 @@ export default class Select extends React.Component {
                 <div>
                     <h2>colors dance</h2>
                     <input className="slider" onChange={ this.handleUp } value={ number } type="range" min="0" max="2020" step="10"></input>
+                    <span className="speed-num">{ number }</span>
                 </div>
                 <div onMouseOver={() => this.refresh()} className="color-box">
                     {shuffle(boxes.map( this.renderBoxes ))}

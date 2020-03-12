@@ -14,7 +14,6 @@ export default class TextBox extends React.Component {
         this.setState({
             content: e.target.value
         })
-        console.log(this.state.content)
     }
     
     render() {

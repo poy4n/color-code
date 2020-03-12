@@ -14,11 +14,6 @@
     margin-top: 20px;
 }
 
-.message {
-    color: white;
-    font-family: monospace;
-}
-
 .logo img {
     width: 35%;
     user-select: none;
