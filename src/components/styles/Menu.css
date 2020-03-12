@@ -61,6 +61,15 @@
 
 }
 
+.menu3 {
+    width: 19.5vw;
+    position: absolute;
+    top: 50;
+    z-index: 999;
+    transition: left 0.5s ease-in;
+    margin-top: 15px;
+}
+
 .menu-link {
     color: #16161e;
     padding: 10px 15px;

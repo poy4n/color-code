@@ -88,8 +88,8 @@ export default class ColorPsy extends React.Component{
                                 <div
                                     className="each-box"
                                     style={ this.changeColor(index) }
-                                    onMouseEnter={() => this.setState({ selectedColor: color })}
-                                    onMouseOut={() => this.add(color) }
+                                    onMouseOver={() => this.setState({ selectedColor: color })}
+                                    onMouseEnter={() => this.add(color) }
                                     key={index}>
                                 </div>
                             </div>

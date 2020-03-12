@@ -1,5 +1,5 @@
 import React from 'react'
-import Works from './Works' 
+import WorksHome from './WorksHome' 
 import { DistortionText } from 'react-text-fun';
 import { sample, shuffle } from 'lodash'
 
@@ -26,25 +26,26 @@ export default class Home extends React.Component {
     }
 
     render() {
-        const { chosen } = this.state
         return (
             <div>
-                <Works />
+                <WorksHome />
                 <div className="home">
     
                     <DistortionText 
-                        text="color wheel" 
+                        text="color code" 
                         speed={.03} 
                         fontSize={100} 
                         fill={'white'} 
                         fontFamily={'monospace'}
+                        paddingRight={20}
+                        paddingLeft={20}
                     />
     
                     <h2>
-                        <span style={this.assignColor()} className="four">Love</span> of <span style={this.assignColor()} className="six">Code</span> and <span style={this.assignColor()} className="five">Color</span>
+                        <span style={this.assignColor()} className="four">Love</span> of <span style={this.assignColor()} className="six">Color</span> and <span style={this.assignColor()} className="five">Code</span>
                     </h2>
                     <h2>
-                        <span style={this.assignColor()} className="one">Color Wheel</span> is created with <a style={this.assignColor()} className="three" href="https://reactjs.org/" target="_blank">React</a>
+                        <span style={this.assignColor()} className="one">Color Code</span> is created with <a style={this.assignColor()} className="three" href="https://reactjs.org/" target="_blank">React</a>
                     </h2>
                     <h2>
                         <span style={this.assignColor()} className="six">You</span> will see lots of <span style={this.assignColor()} className="one">colors</span>
@@ -53,13 +54,13 @@ export default class Home extends React.Component {
                         <span style={this.assignColor()} className="six">You</span> will <span style={this.assignColor()} className="five">experience</span> something new, <span style={this.assignColor()} className="three">be curious</span>
                     </h2>
                     <h2>
-                        Check out other <span style={this.assignColor()} className="four">projects</span> via <span style={this.assignColor()} className="six">top-left</span> menu bar
+                        Check out other <span style={this.assignColor()} className="four">projects</span> via <span style={this.assignColor()} className="six">top-left</span> menu
                     </h2>
                     <h2>
                         The <span style={this.assignColor()} className="one">purpose</span> is to showcase <span style={this.assignColor()} className="two">skills + intrests</span> in web development
                     </h2>
                 </div>
-                <button className="color-btn" onClick={this.shuffleColors}>CLICK</button>
+                <button className="color-btn" onClick={this.shuffleColors}>C O L O R</button>
             </div>
         )
     }

@@ -10,12 +10,12 @@ h2 {
 
 .color-btn {
     margin-top: 20px;
-    width: 500px;
+    width: 200px;
     height: 20px;
     border-radius: 50%;
     box-shadow: 5px 5px 5px 0 rgb(0, 0, 0);
     font-family: monospace;
-
+    cursor: pointer;
 }
 
 .one {

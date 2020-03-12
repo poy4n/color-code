@@ -31,6 +31,8 @@ h2 {
 
 .rainbow-box {
     margin-top: 100px ;
+    margin-bottom: 20px ;
+
 }
 
 @media only screen and (max-width: 1000px) {

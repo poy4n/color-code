@@ -8,6 +8,10 @@
     }
 }
 
+.message {
+    margin: 0;
+}
+
 .logo-wrap {
     display: flex;
     flex-direction: column;
@@ -34,7 +38,7 @@
 }
 
 .slider-box {
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 @media only screen and (max-width: 1000px) {
