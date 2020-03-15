@@ -51,7 +51,7 @@ export default class Home extends React.Component {
                         <span style={this.assignColor()} className="six">You</span> will see lots of <span style={this.assignColor()} className="one">colors</span>
                     </h2>
                     <h2>
-                        <span style={this.assignColor()} className="six">You</span> will <span style={this.assignColor()} className="five">experience</span> something new, <span style={this.assignColor()} className="three">be curious</span>
+                        <span style={this.assignColor()} className="six">You</span> will <span style={this.assignColor()} className="five">experience</span> and <span style={this.assignColor()} className="three">explore</span> new things
                     </h2>
                     <h2>
                         Check out other <span style={this.assignColor()} className="four">projects</span> via <span style={this.assignColor()} className="six">top-left</span> menu
