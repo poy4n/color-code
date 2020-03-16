@@ -29,16 +29,16 @@ export default function About() {
                         <div className="text2">As a hobbyist, I design 2D visual experiences to trasnfer ideas and concepts. My creative approach and lateral thinking can result in simple yet innovative design solutions. I'm excited to launch these transferrable skills into my software engineering career.</div>
                     </div>
                     <div className="box5">
-                        <h2>Stacks</h2>
+                        <h2>Stack</h2>
                         <div className="text5">Javascript</div>
                         <div className="text6">React</div>
                         <div className="text5">Node.js</div>
                         <div className="text6">Express</div>
                         <div className="text5">Ruby</div>
                         <div className="text6">Sinatra</div>
-                        <div className="text5">HTML</div>
-                        <div className="text6">CSS</div>
-                        <div className="text5">OOP</div>
+                        <div className="text5">HTML | CSS</div>
+                        <div className="text6">SCSS | SASS</div>
+                        <div className="text5">GIT</div>
                         <div className="text6">SQL</div>
                     </div>
                     <div className="box3">
