@@ -40,31 +40,35 @@ export default class Home extends React.Component {
                         paddingRight={20}
                         paddingLeft={20}
                     />
-    
-                    <h2>
-                        <span style={this.assignColor()} className="four">Love</span> of <span style={this.assignColor()} className="six">Color</span> and <span style={this.assignColor()} className="five">Code</span>
-                    </h2>
-                    <h2>
-                        <span style={this.assignColor()} className="one">Color Code</span> is created with <a style={this.assignColor()} className="three" href="https://reactjs.org/" target="_blank">React</a>
-                    </h2>
-                    <h2>
-                        <span style={this.assignColor()} className="six">You</span> will see lots of <span style={this.assignColor()} className="one">colors</span>
-                    </h2>
-                    <h2>
-                        <span style={this.assignColor()} className="six">You</span> will <span style={this.assignColor()} className="five">experience</span> and <span style={this.assignColor()} className="three">explore</span> new things
-                    </h2>
-                    <h2>
-                        Check out other <span style={this.assignColor()} className="four">projects</span> via <span style={this.assignColor()} className="six">top-left</span> menu
-                    </h2>
-                    <h2>
-                        The <span style={this.assignColor()} className="one">purpose</span> is to showcase <span style={this.assignColor()} className="two">skills + techniques</span> in front-end development
-                    </h2>
-                    <h2>
-                        "<span style={this.assignColor()} className="one">Creativity</span> is putting number of <span style={this.assignColor()} className="five">elements</span> together in different ways"
-                    </h2>
+                    <div className="text-name">
+                        <h2>
+                            <span style={this.assignColor()} className="four">Love</span> of <span style={this.assignColor()} className="six">Color</span> and <span style={this.assignColor()} className="five">Code</span>
+                        </h2>
+                        <h2>
+                            <span style={this.assignColor()} className="one">Color Code</span> is created with <a style={this.assignColor()} className="three" href="https://reactjs.org/" target="_blank">React</a>
+                        </h2>
+                        <h2>
+                            <span style={this.assignColor()} className="six">You</span> will see lots of <span style={this.assignColor()} className="one">colors</span>
+                        </h2>
+                        <h2>
+                            <span style={this.assignColor()} className="six">You</span> will <span style={this.assignColor()} className="five">experience</span> and <span style={this.assignColor()} className="three">explore</span> new things
+                        </h2>
+                        <h2>
+                            Check out other <span style={this.assignColor()} className="four">projects</span> via <span style={this.assignColor()} className="six">top-left</span> menu
+                        </h2>
+                        <h2>
+                            The <span style={this.assignColor()} className="one">purpose</span> is to showcase <span style={this.assignColor()} className="two">skills + techniques</span> in front-end development
+                        </h2>
+                        <h2>
+                            "<span style={this.assignColor()} className="one">Creativity</span> is putting number of <span style={this.assignColor()} className="five">elements</span> together in different ways"
+                        </h2>
+                        <button className="color-btn" onClick={this.shuffleColors}>CC</button>
+                    </div>
+                    
                 </div>
-                <button className="color-btn" onClick={this.shuffleColors}>CC</button>
+           
             </div>
+
         )
     }
 }

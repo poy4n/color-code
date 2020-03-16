@@ -49,3 +49,17 @@ h2 {
     color: #F4D03F;
     font-size: 25px;
 }
+
+@media only screen and (max-width: 1000px) {
+
+    .home {
+        margin-top: 50px;
+    }
+
+    .text-name {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+   
+}

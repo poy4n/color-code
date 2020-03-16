@@ -104,9 +104,14 @@ h2 {
 }
 
 @media only screen and (max-width: 1000px) {
+
+    .about {
+        margin-top: 50px;
+
+    }
     .about-box {
         display: grid;
-        grid-template-columns: 1fr
+        grid-template-columns: 1fr;
     }
     .box1,
     .box2,
