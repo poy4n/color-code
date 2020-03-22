@@ -28,6 +28,10 @@ export default class Mene extends Component {
                 url: ''
             },
             {
+                label: 'Resume PDF',
+                url: 'https://drive.google.com/file/d/1le8x9UsGnLJRuBsbNYs3xKNRtFGi2gEu/view?usp=sharing'
+            },
+            {
                 label: 'LinkedIn',
                 url: 'https://www.linkedin.com/in/pouyanmadanipour/'
             },
