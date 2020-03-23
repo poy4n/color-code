@@ -59,9 +59,6 @@ export default class Home extends React.Component {
                         <h2>
                             The <span style={this.assignColor()} className="one">purpose</span> is to showcase <span style={this.assignColor()} className="two">skills + techniques</span> in front-end development
                         </h2>
-                        <h2>
-                            "<span style={this.assignColor()} className="one">Creativity</span> is putting number of <span style={this.assignColor()} className="five">elements</span> together in different ways"
-                        </h2>
                         <button className="color-btn" onClick={this.shuffleColors}>CC</button>
                     </div>
                     

@@ -28,7 +28,7 @@ export default class Mene extends Component {
                 url: ''
             },
             {
-                label: 'Resume PDF',
+                label: 'ResumePDF',
                 url: 'https://drive.google.com/file/d/1le8x9UsGnLJRuBsbNYs3xKNRtFGi2gEu/view?usp=sharing'
             },
             {
@@ -44,7 +44,7 @@ export default class Mene extends Component {
                 url: 'https://www.instagram.com/solitarius.digital/'
             },
             {
-                label: 'GA Profile',
+                label: 'GA-Profile',
                 url: 'https://profiles.generalassemb.ly/profiles/pouyanmadanipour'
             },
             {
