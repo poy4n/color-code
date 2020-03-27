@@ -80,7 +80,7 @@ export default class ColorPsy extends React.Component{
         return (
             <div>
                 <Works />
-                <h2>colors have messages</h2>
+                <h2>make a rainbow</h2>
                 <div>
                     <div className="box">
                         {colors.map((color, index) =>  (

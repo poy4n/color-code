@@ -28,7 +28,7 @@ export default class Logo extends React.Component {
                     <span className="speed-num">fast</span>
                     <input className="slider" onChange={ this.handleUp } type="range" value={ number } min="0" max="2020" step="101"></input>
                     <span className="speed-num">slow</span>
-                    <h2 className="message">hold and drag the bar</h2>
+                    <h2 className="message">hold and slide</h2>
                 </div>
             </div>
         )

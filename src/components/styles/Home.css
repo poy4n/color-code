@@ -9,9 +9,10 @@ h2 {
 }
 
 .color-btn {
-    margin-top: 20px;
+    margin-top: 70px;
     width: 150px;
-    height: 20px;
+    font-size: 18px;
+    height: 40px;
     border-radius: 50px;
     box-shadow: 5px 5px 5px 0 rgb(0, 0, 0);
     font-family: monospace;

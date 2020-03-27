@@ -44,7 +44,7 @@ export default class Mene extends Component {
                 url: 'https://www.instagram.com/solitarius.digital/'
             },
             {
-                label: 'GA-Profile',
+                label: 'GAprofile',
                 url: 'https://profiles.generalassemb.ly/profiles/pouyanmadanipour'
             },
             {
