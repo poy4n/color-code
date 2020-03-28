@@ -21,6 +21,12 @@ h2 {
     font-weight: bold;
 }
 
+.color-btn:hover {
+    border: 2px solid #F4D03F;
+    background-color: #16161e;
+    color: #F4D03F;
+}
+
 .one {
     color: #DC7633;
     font-size: 25px;
