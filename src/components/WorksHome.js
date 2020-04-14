@@ -28,8 +28,8 @@ export default class Mene extends Component {
                 url: ''
             },
             {
-                label: 'Emotions',
-                url: 'https://emotions-tracker.herokuapp.com/'
+                label: 'dailyTodo',
+                url: 'http://daily-todo.surge.sh/'
             },
             {
                 label: 'FlashZoo',
@@ -40,8 +40,8 @@ export default class Mene extends Component {
                 url: 'https://poy4n.github.io/tictactoe/'
             },
             {
-                label: 'SolarSystem',
-                url: 'https://solar-planets-app.herokuapp.com/'
+                label: 'Emotions',
+                url: 'https://emotions-tracker.herokuapp.com/'
             },
             {
                 label: 'Paint',
