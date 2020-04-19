@@ -28,6 +28,14 @@ export default class Mene extends Component {
                 url: ''
             },
             {
+                label: 'colorSudoku',
+                url: 'http://color-sudoku.surge.sh/'
+            },
+            {
+                label: 'dailyTodo',
+                url: 'http://daily-todo.surge.sh/'
+            },
+            {
                 label: 'Emotions',
                 url: 'https://emotions-tracker.herokuapp.com/'
             },
@@ -38,14 +46,6 @@ export default class Mene extends Component {
             {
                 label: 'TicTacToe',
                 url: 'https://poy4n.github.io/tictactoe/'
-            },
-            {
-                label: 'SolarSystem',
-                url: 'https://solar-planets-app.herokuapp.com/'
-            },
-            {
-                label: 'Paint',
-                url: 'https://poy4n.github.io/paint/'
             },
             {
                 label: '',
