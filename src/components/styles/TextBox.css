@@ -1,45 +1,43 @@
-
 h2 {
-    color: white;
-    font-family: monospace;
-   
+	color: white;
+	font-family: monospace;
 }
 
 .text-boxes {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .text-box {
-    padding: 10px 20px;
-    border: 10px solid;
-    font-family: monospace;
-    color: #16161e;
-
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 20px;
-    width: 1000px;
-    height: 50px;
+	padding: 10px 20px;
+	border: 10px solid;
+	font-family: monospace;
+	color: #16161e;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 20px;
+	width: 1000px;
+	height: 200px;
 }
 
 .white {
-    color: white;
-    font-weight: bold;
-    font-family: monospace;
+	color: white;
+	font-weight: bold;
+	font-family: monospace;
 }
 
 .green {
-    color: rgb(9, 255, 0);
-    font-weight: bold;
-    font-family: monospace;
+	color: rgb(9, 255, 0);
+	font-weight: bold;
+	font-family: monospace;
 }
 
-@media only screen and (max-width: 1000px) {
-    .text-box {
-        width: 300px;
-    }
-    h2 {
-        font-size: 15px;
-    }
+@media only screen and (max-width: 600px) {
+	.text-box {
+		width: 500px;
+		height: 100px;
+	}
+	h2 {
+		font-size: 15px;
+	}
 }

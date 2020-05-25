@@ -1,52 +1,51 @@
-
 @keyframes logo {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
 
 .message {
-    margin: 0;
+	margin: 0;
 }
 
 .logo-wrap {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
 }
 
 .logo img {
-    width: 35%;
-    user-select: none;
+	width: 35%;
+	user-select: none;
 }
 
 .speed-num {
-    color: white;
-    margin: 50px;
-    font-family: monospace;
-    font-size: 20px;
-    margin: 0;
-    padding: 0px 10px;
+	color: white;
+	margin: 50px;
+	font-family: monospace;
+	font-size: 20px;
+	margin: 0;
+	padding: 0px 10px;
 }
 
 .slider {
-    width: 30%;
-    cursor: pointer;   
+	width: 30%;
+	cursor: pointer;
 }
 
 .slider-box {
-    margin-top: 60px;
+	margin-top: 60px;
 }
 
-@media only screen and (max-width: 1000px) {
-   .logo img {
-       width: 80%;
-   }
+@media only screen and (max-width: 600px) {
+	.logo img {
+		width: 80%;
+	}
 
-   .logo-wrap {
-        margin-top: 80px;
-    }   
+	.logo-wrap {
+		margin-top: 80px;
+	}
 }

@@ -1,49 +1,48 @@
 .header {
-    background-color: rgb(233, 233, 233);
-    position: fixed;
-    height: 30px;
-    width: 100%;
-    padding: 12px;
-    left: 0px;
-    top: 0px;
+	background-color: rgb(233, 233, 233);
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	padding: 12px;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
 }
 
 .nav {
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-decoration: none;
-    font-family: monospace;
-    font-size: 20px;
-    color: #16161e;
-    margin-right: 25px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+	font-family: monospace;
+	font-size: 20px;
+	color: #16161e;
+	margin-right: 25px;
 }
 
 .active {
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    text-decoration: none;
-    font-family: monospace;
-    font-size: 20px;
-    color: white;
-    margin-right: 25px;
-    background-color: #16161e;;
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	text-decoration: none;
+	font-family: monospace;
+	font-size: 20px;
+	color: white;
+	margin-right: 25px;
+	background-color: #16161e;
 }
 
 .nav:hover {
-    padding-bottom: 20px;
-
-    background-color: #16161e;
-    color: white;
+	padding-bottom: 15px;
+	background-color: #16161e;
+	color: white;
 }
 
-@media only screen and (max-width: 1000px) {
-    .nav  {
-        float: left;
-        font-size: 12px;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
+@media only screen and (max-width: 600px) {
+	.nav {
+		font-size: 14px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 }

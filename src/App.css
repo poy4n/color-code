@@ -1,4 +1,8 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
-  background: #16161e;
-  text-align: center;
+	background: #16161e;
+	text-align: center;
 }

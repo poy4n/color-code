@@ -1,95 +1,100 @@
-
 .about-box {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    gap: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+	gap: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
 }
 
 .text1 {
-    color: #DC7633;
-    font-family: monospace;
-    padding: 10px;
-    font-size: 20px;
-    margin-bottom: 10px;
-    background-color: #DC7633;
-    border: 2px solid white;
+	color: #dc7633;
+	font-family: monospace;
+	padding: 10px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	background-color: #dc7633;
+	border: 2px solid white;
+	border-radius: 20px;
 }
 
 h2 {
-    font-family: monospace;
+	font-family: monospace;
 }
 
 .box1 {
-    margin-top: 200px;
+	margin-top: 200px;
 }
 
 .text2 {
-    color: #A569BD;
-    font-family: monospace;
-    padding: 10px;
-    font-size: 20px;
-    margin-bottom: 10px;
-    background-color: #A569BD;
-    border: 2px solid white;
+	color: #a569bd;
+	font-family: monospace;
+	padding: 10px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	background-color: #a569bd;
+	border: 2px solid white;
+	border-radius: 20px;
 }
 
 .box2 {
-    margin-top: 60px;
+	margin-top: 60px;
 }
 
 .box5 {
-    margin-top: -50px;
+	margin-top: -50px;
 }
 
 .text3 {
-    color: #5499C7;
-    font-family: monospace;
-    padding: 10px;
-    font-size: 20px;
-    margin-bottom: 10px;
-    background-color: #5499C7;
-    border: 2px solid white;
+	color: #5499c7;
+	font-family: monospace;
+	padding: 10px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	background-color: #5499c7;
+	border: 2px solid white;
+	border-radius: 20px;
 }
 
 .box3 {
-    margin-top: 195px;
+	margin-top: 195px;
 }
 
 .text4 {
-    color: #CD6155;
-    font-family: monospace;
-    padding: 10px;
-    font-size: 20px;
-    margin-bottom: 10px;
-    background-color: #CD6155;
-    border: 2px solid white;
+	color: #cd6155;
+	font-family: monospace;
+	padding: 10px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	background-color: #cd6155;
+	border: 2px solid white;
+	border-radius: 20px;
 }
 
 .box4 {
-    margin-top: 50px;
+	margin-top: 50px;
 }
 
 .text5 {
-    color: #52BE80;
-    font-family: monospace;
-    padding: 10px;
-    font-size: 20px;
-    margin-bottom: 10px;
-    background-color: #52BE80;
-    border: 2px solid white;
+	color: #52be80;
+	font-family: monospace;
+	padding: 10px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	background-color: #52be80;
+	border: 2px solid white;
+	border-radius: 20px;
 }
 
 .text6 {
-    color: #F4D03F;
-    font-family: monospace;
-    padding: 10px;
-    font-size: 20px;
-    margin-bottom: 10px;
-    background-color: #F4D03F;
-    border: 2px solid white;
+	color: #f4d03f;
+	font-family: monospace;
+	padding: 10px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	background-color: #f4d03f;
+	border: 2px solid white;
+	border-radius: 20px;
 }
 
 .text1:hover,
@@ -98,25 +103,23 @@ h2 {
 .text4:hover,
 .text5:hover,
 .text6:hover {
-    background-color: #16161e;
-    color: yellow;
-    user-select: none;
+	background-color: #16161e;
+	color: yellow;
+	user-select: none;
 }
 
 @media only screen and (max-width: 1000px) {
-
-    .about {
-        margin-top: 50px;
-
-    }
-    .about-box {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .box1,
-    .box2,
-    .box3,
-    .box4 {
-        margin-top: 0;
-    }
+	.about {
+		margin-top: 50px;
+	}
+	.about-box {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.box1,
+	.box2,
+	.box3,
+	.box4 {
+		margin-top: 0;
+	}
 }
