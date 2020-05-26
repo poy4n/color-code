@@ -21,16 +21,15 @@ export default function About() {
 					<div className='box1'>
 						<h2>Background</h2>
 						<div className='text1'>
-							Architectural designer turned software engineer with a passion for technology, innovation
+							Architectural designer turned software developer with a passion for technology, innovation
 							and design. I have always been facinated with colors, patterns and creativity.
 						</div>
 					</div>
 					<div className='box2'>
 						<h2>Interests</h2>
 						<div className='text2'>
-							I design 2D visual experiences to trasnfer ideas and concepts. My creative approach and
-							lateral thinking can result in simple yet innovative design solutions. I'm excited to launch
-							these transferrable skills into my software engineering career.
+							I design visual experiences to trasnfer ideas and concepts. My creative approach and lateral
+							thinking can result in simple yet innovative design solutions.
 						</div>
 					</div>
 					<div className='box5'>
@@ -50,16 +49,15 @@ export default function About() {
 						<h2>Vision</h2>
 						<div className='text3'>
 							Programming provides the opportunity to be more creative and productive. With imaginative
-							vision and problem solving skills, I am eager to create diverse and flexible design layouts
-							with response to the brief.
+							vision and problem solving skills, I am eager to create diverse and innovative applications.
 						</div>
 					</div>
 					<div className='box4'>
 						<h2>Programming</h2>
 						<div className='text4'>
-							I seek exposure to creative code as a programmer. I want to create functional and visually
-							satisfying applications and websites. Growth, challenge and responsibility are the main
-							values to be a better professional.
+							Coding is a tool to convert ideas into a reality in order to solve big problems. I seek
+							exposure to creative code as a programmer. I am passionate about clear and well structured
+							code.
 						</div>
 					</div>
 				</div>

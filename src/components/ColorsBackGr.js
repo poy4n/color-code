@@ -5,14 +5,13 @@ import './styles/Colors.css';
 
 export default class Select extends React.Component {
 	state = {
-		colors: [ '#16161e', '#DC7633', '#F4D03F', '#A569BD', '#CD6155', '#5499C7', '#52BE80', '#F0F3F4' ],
+		colors: [ '#16161e', '#dc7633', '#a569bd', '#16161e', '#5499c7', '#cd6155', '#16161e', '#52be80', '#f4d03f' ],
 		number: 16
 	};
 
 	changeColor = () => {
 		return {
-			backgroundColor: sample(this.state.colors),
-			borderRadius: `${sample([ 0, 25, 50 ])}%`
+			backgroundColor: sample(this.state.colors)
 		};
 	};
 
@@ -24,7 +23,7 @@ export default class Select extends React.Component {
 
 	renderBoxes = (language, index) => {
 		return (
-			<div>
+			<div key={index}>
 				<div style={this.changeColor(index)} className='colors' key={index} />
 			</div>
 		);

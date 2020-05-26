@@ -16,11 +16,26 @@
 }
 
 .project-detail {
+	display: flex;
+	flex-direction: column;
 	width: 400px;
 	margin: auto;
 	height: 100px;
 	box-shadow: 0px 0px 30px 2px #000000;
+	padding: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+.project-name {
+	margin: 0;
+	color: white;
+}
+
+.project-link {
+	text-decoration: none;
+	color: white;
+	padding-top: 5px;
+}
+
+.project-link:hover {
+	text-decoration: underline;
 }
