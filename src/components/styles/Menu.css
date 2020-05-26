@@ -42,15 +42,6 @@
 	margin-top: 12px;
 }
 
-.menu-button2 {
-	display: flex;
-	position: relative;
-	font-size: 30px;
-	cursor: pointer;
-	color: #16161e;
-	margin-top: 12px;
-}
-
 .menu2 {
 	width: 19.5vw;
 	position: absolute;
@@ -65,7 +56,7 @@
 	padding: 10px 15px;
 	display: flex;
 	border: 2px solid #16161e;
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 	text-decoration: none;
 	font-size: 20px;
 }

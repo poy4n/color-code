@@ -1,28 +1,31 @@
-
 h1 {
-    color: white;
-    font-family: monospace;
+	color: white;
+	font-family: 'Source Code Pro', monospace;
 }
 
 .colors {
-    width: 20px;
-    height: 20px;
-    margin: auto;
+	width: 20px;
+	height: 20px;
+	margin: auto;
 }
 
 .color-box {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
-    margin-top: 20px;
-    margin-bottom: 20px;
-    gap: 5px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+	margin-top: 20px;
+	margin-bottom: 20px;
+	gap: 5px;
 }
 
 .canvas {
-    display: flex;
-    margin: auto;
-    flex-direction: column;
-    width: 80%;
-    margin-top: 5px;
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+	width: 80%;
+	margin-top: 5px;
 }
 
+.canvas-home {
+	width: 400px;
+	margin: auto;
+}

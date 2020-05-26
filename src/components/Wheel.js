@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 import Logo from './Logo';
-import Works from './Works';
+import Menu from './Menu';
 
 export default function Home() {
-    return (
-        <div>
-            <Works />
-            <Logo />
-        </div>
-    )
+	return (
+		<div>
+			<Menu />
+			<Logo />
+		</div>
+	);
 }

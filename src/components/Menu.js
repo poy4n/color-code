@@ -52,7 +52,7 @@ export default class Mene extends Component {
 				</div>
 
 				{links.length && (
-					<nav className={`menu2 ${isClicked ? 'show' : ''}`}>
+					<nav className={`menu ${isClicked ? 'show' : ''}`}>
 						<ul className='menu-items'>
 							{links.map((item) => (
 								<li style={this.changeColor(item.label)} className='menu-list' key={item.label}>

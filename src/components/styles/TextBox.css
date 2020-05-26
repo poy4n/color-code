@@ -1,6 +1,6 @@
 h2 {
 	color: white;
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 }
 
 .text-boxes {
@@ -11,7 +11,7 @@ h2 {
 .text-box {
 	padding: 10px 20px;
 	border: 10px solid;
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 	color: #16161e;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -23,13 +23,13 @@ h2 {
 .white {
 	color: white;
 	font-weight: bold;
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 }
 
 .green {
 	color: rgb(9, 255, 0);
 	font-weight: bold;
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 }
 
 @media only screen and (max-width: 600px) {

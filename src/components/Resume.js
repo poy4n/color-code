@@ -2,14 +2,20 @@ import React from 'react';
 import { DistortionText } from 'react-text-fun';
 import Menu from './Menu';
 
-import './styles/About.css';
+import './styles/Resume.css';
 
 export default function About() {
 	return (
 		<div>
 			<Menu />
 			<div className='about'>
-				<DistortionText text='pouyan' speed={0.05} fontSize={70} fill={'white'} fontFamily={'monospace'} />
+				<DistortionText
+					text='pouyan'
+					speed={0.05}
+					fontSize={70}
+					fill={'white'}
+					fontFamily={('Josefin Sans', 'sans-serif')}
+				/>
 
 				<div className='about-box'>
 					<div className='box1'>
@@ -29,9 +35,9 @@ export default function About() {
 					</div>
 					<div className='box5'>
 						<h2>Stack</h2>
+						<div className='text5'>React JS</div>
+						<div className='text6'>Node.js</div>
 						<div className='text5'>Javascript</div>
-						<div className='text6'>React</div>
-						<div className='text5'>Node.js</div>
 						<div className='text6'>Express</div>
 						<div className='text5'>Ruby</div>
 						<div className='text6'>Sinatra</div>

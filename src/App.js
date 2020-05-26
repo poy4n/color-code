@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import About from './components/About';
+import Resume from './components/Resume';
 import Matrix from './components/Matrix';
 import Wheel from './components/Wheel';
 import ColorBox from './components/ColorBox';
@@ -16,9 +16,9 @@ export default function App() {
 	const [ nav, setNav ] = useState([
 		{ className: 'nav', route: '/wheel', name: 'Wheel' },
 		{ className: 'nav', route: '/matrix', name: 'Matrix' },
+		{ className: 'nav', route: '/rainbow', name: 'Rainbow' },
 		{ className: 'nav', route: '/dance', name: 'Dance' },
-		{ className: 'nav', route: '/colors', name: 'Colors' },
-		{ className: 'nav', route: '/about', name: 'Resume' },
+		{ className: 'nav', route: '/resume', name: 'Resume' },
 		{ className: 'nav', route: '/', name: 'Projects' }
 	]);
 
@@ -48,28 +48,22 @@ export default function App() {
 						</Link>
 					))}
 				</div>
-
 				<Switch>
 					<Route path='/dance'>
 						<ColorBox />
 					</Route>
-
 					<Route path='/matrix'>
 						<Matrix />
 					</Route>
-
-					<Route path='/colors'>
+					<Route path='/rainbow'>
 						<Rainbow />
 					</Route>
-
 					<Route path='/wheel'>
 						<Wheel />
 					</Route>
-
-					<Route path='/about'>
-						<About />
+					<Route path='/resume'>
+						<Resume />
 					</Route>
-
 					<Route path='/'>
 						<Home />
 					</Route>

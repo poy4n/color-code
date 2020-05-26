@@ -14,7 +14,7 @@
 	padding-left: 20px;
 	padding-right: 20px;
 	text-decoration: none;
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 	font-size: 20px;
 	color: #16161e;
 	margin-right: 25px;
@@ -26,17 +26,15 @@
 	padding-right: 20px;
 	padding-bottom: 15px;
 	text-decoration: none;
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 	font-size: 20px;
-	color: white;
+	color: #cd6155;
 	margin-right: 25px;
-	background-color: #16161e;
 }
 
 .nav:hover {
 	padding-bottom: 15px;
-	background-color: #16161e;
-	color: white;
+	color: #5499c7;
 }
 
 @media only screen and (max-width: 600px) {

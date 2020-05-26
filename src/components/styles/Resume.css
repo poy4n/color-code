@@ -9,17 +9,18 @@
 
 .text1 {
 	color: #dc7633;
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 	padding: 10px;
 	font-size: 20px;
 	margin-bottom: 10px;
 	background-color: #dc7633;
-	border: 2px solid white;
-	border-radius: 20px;
+	border: 1px solid white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 30px 2px #000000;
 }
 
 h2 {
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 }
 
 .box1 {
@@ -28,13 +29,14 @@ h2 {
 
 .text2 {
 	color: #a569bd;
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 	padding: 10px;
 	font-size: 20px;
 	margin-bottom: 10px;
 	background-color: #a569bd;
-	border: 2px solid white;
-	border-radius: 20px;
+	border: 1px solid white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 30px 2px #000000;
 }
 
 .box2 {
@@ -47,13 +49,14 @@ h2 {
 
 .text3 {
 	color: #5499c7;
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 	padding: 10px;
 	font-size: 20px;
 	margin-bottom: 10px;
 	background-color: #5499c7;
-	border: 2px solid white;
-	border-radius: 20px;
+	border: 1px solid white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 30px 2px #000000;
 }
 
 .box3 {
@@ -62,13 +65,14 @@ h2 {
 
 .text4 {
 	color: #cd6155;
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 	padding: 10px;
 	font-size: 20px;
 	margin-bottom: 10px;
 	background-color: #cd6155;
-	border: 2px solid white;
-	border-radius: 20px;
+	border: 1px solid white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 30px 2px #000000;
 }
 
 .box4 {
@@ -77,24 +81,26 @@ h2 {
 
 .text5 {
 	color: #52be80;
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 	padding: 10px;
 	font-size: 20px;
 	margin-bottom: 10px;
 	background-color: #52be80;
-	border: 2px solid white;
+	border: 1px solid white;
 	border-radius: 20px;
+	box-shadow: 0px 0px 20px 2px #000000;
 }
 
 .text6 {
 	color: #f4d03f;
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 	padding: 10px;
 	font-size: 20px;
 	margin-bottom: 10px;
 	background-color: #f4d03f;
-	border: 2px solid white;
+	border: 1px solid white;
 	border-radius: 20px;
+	box-shadow: 0px 0px 20px 2px #000000;
 }
 
 .text1:hover,

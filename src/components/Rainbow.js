@@ -1,5 +1,5 @@
 import React from 'react';
-import Works from './Works';
+import Menu from './Menu';
 
 import './styles/Rainbow.css';
 
@@ -80,7 +80,7 @@ export default class ColorPsy extends React.Component {
 		const { colors, selectedColor, rainbow } = this.state;
 		return (
 			<div>
-				<Works />
+				<Menu />
 				<h2>make a rainbow</h2>
 				<div>
 					<div className='box'>
