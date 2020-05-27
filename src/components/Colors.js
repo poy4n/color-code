@@ -37,7 +37,7 @@ export default class Select extends React.Component {
 
 	renderBoxes = (language, index) => {
 		return (
-			<div>
+			<div key={index}>
 				<div style={this.changeColor(index)} className='colors' key={index} />
 			</div>
 		);

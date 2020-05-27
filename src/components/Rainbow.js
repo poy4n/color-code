@@ -79,13 +79,13 @@ export default class ColorPsy extends React.Component {
 	render() {
 		const { colors, selectedColor, rainbow } = this.state;
 		return (
-			<div>
+			<div className='color-container'>
 				<Menu />
 				<h2>make a rainbow</h2>
 				<div>
 					<div className='box'>
 						{colors.map((color, index) => (
-							<div className='box-container'>
+							<div key={index} className='box-container'>
 								<div
 									className='each-box'
 									style={this.changeColor(index)}

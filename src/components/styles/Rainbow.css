@@ -3,6 +3,10 @@ h2 {
 	margin-top: 30px;
 }
 
+.color-container {
+	margin-top: 80px;
+}
+
 .box {
 	margin: auto;
 	margin-top: 20px;
@@ -52,5 +56,9 @@ h2 {
 	}
 	.rainbow-box {
 		margin-top: 200px;
+	}
+
+	.details {
+		margin-top: 0px;
 	}
 }

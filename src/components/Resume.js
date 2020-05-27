@@ -6,7 +6,7 @@ import './styles/Resume.css';
 
 export default function About() {
 	return (
-		<div>
+		<div className='container'>
 			<Menu />
 			<div className='about'>
 				<DistortionText

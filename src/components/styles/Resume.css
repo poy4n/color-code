@@ -118,7 +118,7 @@ h2 {
 	user-select: none;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
 	.about {
 		margin-top: 50px;
 	}

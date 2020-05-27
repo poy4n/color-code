@@ -4,7 +4,7 @@ import Menu from './Menu';
 
 export default function About() {
 	return (
-		<div>
+		<div className='container'>
 			<Menu />
 			<div className='text-boxes'>
 				<TextBox />

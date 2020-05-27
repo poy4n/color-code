@@ -56,7 +56,7 @@ export default class Mene extends Component {
 						<ul className='menu-items'>
 							{links.map((item) => (
 								<li style={this.changeColor(item.label)} className='menu-list' key={item.label}>
-									<a className='menu-link' href={item.url} target='_blank'>
+									<a className='menu-link' href={item.url} target='_blank' rel='noopener noreferrer'>
 										{item.label}
 									</a>
 								</li>

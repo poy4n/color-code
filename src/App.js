@@ -6,7 +6,7 @@ import ColorBox from './components/ColorBox';
 import Rainbow from './components/Rainbow';
 import Home from './components/Home';
 
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
 
 import './App.css';
 import './components/styles/Logo.css';
@@ -22,30 +22,14 @@ export default function App() {
 		{ className: 'nav', route: '/', name: 'Projects' }
 	]);
 
-	const toggleClass = (className) => (className === 'nav' ? 'active' : 'nav');
-
-	const changeClass = (indexOfLinkToChange) => {
-		const newNav = nav.map((link, i) => {
-			let newLink = { ...link };
-			if (i !== indexOfLinkToChange) {
-				newLink.className = 'nav';
-				return newLink;
-			} else {
-				newLink.className = toggleClass(newLink.className);
-				return newLink;
-			}
-		});
-		setNav(newNav);
-	};
-
 	return (
 		<div className='App'>
 			<Router>
 				<div className='header'>
 					{nav.map((link, i) => (
-						<Link key={i} onClick={() => changeClass(i)} className={link.className} to={link.route}>
+						<NavLink key={i} activeClassName='active-nav' className={link.className} to={link.route} exact>
 							{link.name}
-						</Link>
+						</NavLink>
 					))}
 				</div>
 				<Switch>
@@ -64,7 +48,7 @@ export default function App() {
 					<Route path='/resume'>
 						<Resume />
 					</Route>
-					<Route path='/'>
+					<Route path='/' exact>
 						<Home />
 					</Route>
 				</Switch>

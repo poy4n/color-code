@@ -10,65 +10,80 @@ export default class Home extends React.Component {
 		projects: [
 			{
 				color: '#dc7633',
-				name: 'uraXa map',
-				link: '12312213',
-				git: 'wrfddsafsdf'
+				name: 'uraXa Map',
+				link: 'https://uraxa-netllfy-app.netlify.app/',
+				git: 'https://github.com/poy4n/uraXa'
 			},
 			{
 				color: '#a569bd',
-				name: 'uraXa map',
-				link: '12312213',
-				git: 'wrfddsafsdf'
+				name: 'Marketplace',
+				link: 'https://warm-tundra-09087.herokuapp.com/',
+				git: 'https://github.com/poy4n/grocery-app'
 			},
 			{
 				color: '#5499c7',
-				name: 'uraXa map',
-				link: '12312213',
-				git: 'wrfddsafsdf'
+				name: 'Color Sudoku',
+				link: 'http://color-sudoku.surge.sh/',
+				git: 'https://github.com/poy4n/color-sudoku'
 			},
 			{
 				color: '#cd6155',
-				name: 'uraXa map',
-				link: '12312213',
-				git: 'wrfddsafsdf'
-			},
-			{
-				color: '#52be80',
-				name: 'uraXa map',
-				link: '12312213',
-				git: 'wrfddsafsdf'
+				name: 'Flash Zoo',
+				link: 'https://beasuf.github.io/flash_zoo_client/',
+				git: 'https://github.com/poy4n/flash_zoo_client'
 			},
 			{
 				color: '#f4d03f',
-				name: 'uraXa map',
-				link: '12312213',
-				git: 'wrfddsafsdf'
+				name: 'TicTacToe',
+				link: 'https://poy4n.github.io/tictactoe/',
+				git: 'https://github.com/poy4n/tictactoe'
+			},
+			{
+				color: '#52be80',
+				name: 'Emotions Tracker',
+				link: 'https://emotions-tracker.herokuapp.com/',
+				git: 'https://github.com/poy4n/emotions-tracker'
 			}
 		]
 	};
 
 	render() {
 		return (
-			<div>
+			<div className='container'>
 				<Menu />
+				<h1>Software Developer</h1>
+				<h3>Programmer + Designer</h3>
 				<div className='home'>
 					{this.state.projects.map((box, index) => {
 						return (
-							<div key={index}>
-								<img
-									className='project-img'
-									style={{ border: `5px solid ${box.color}` }}
-									src={require(`../projectsimg/${index + 1}.jpg`)}
-									alt=''
-								/>
+							<div className='project-container' key={index}>
+								<a href={box.link} target='_blank'>
+									<div className='overlay' style={{ backgroundColor: box.color }} />
+									<img
+										className='project-img'
+										style={{ border: `10px solid ${box.color}` }}
+										src={require(`../projectsimg/${index + 1}.jpg`)}
+										alt=''
+									/>
+								</a>
 								<ColorsBackGr />
 								<div className='project-detail' style={{ backgroundColor: box.color }}>
 									<h2 className='project-name'>{box.name}</h2>
-									<a className='project-link' href={box.link} target='_blank'>
+									<a
+										className='project-link'
+										href={box.link}
+										target='_blank'
+										rel='noopener noreferrer'
+									>
 										access the app
 									</a>
-									<a className='project-link' href={box.git} target='_blank'>
-										find the code here
+									<a
+										className='project-link'
+										href={box.git}
+										target='_blank'
+										rel='noopener noreferrer'
+									>
+										find the code
 									</a>
 								</div>
 							</div>
