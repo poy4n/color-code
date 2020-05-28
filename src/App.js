@@ -13,7 +13,7 @@ import './components/styles/Logo.css';
 import './components/styles/Header.css';
 
 export default function App() {
-	const [ nav, setNav ] = useState([
+	const [ nav ] = useState([
 		{ className: 'nav', route: '/wheel', name: 'Wheel' },
 		{ className: 'nav', route: '/matrix', name: 'Matrix' },
 		{ className: 'nav', route: '/rainbow', name: 'Rainbow' },

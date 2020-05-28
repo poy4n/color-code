@@ -12,37 +12,43 @@ export default class Home extends React.Component {
 				color: '#dc7633',
 				name: 'uraXa Map',
 				link: 'https://uraxa-netllfy-app.netlify.app/',
-				git: 'https://github.com/poy4n/uraXa'
+				git: 'https://github.com/poy4n/uraXa',
+				stack: 'HERE Tech API-React-JavaScript-Node.js-Express-PostgreSQL-CSS'
 			},
 			{
 				color: '#a569bd',
 				name: 'Marketplace',
 				link: 'https://warm-tundra-09087.herokuapp.com/',
-				git: 'https://github.com/poy4n/grocery-app'
+				git: 'https://github.com/poy4n/grocery-app',
+				stack: 'React-JavaScript-Node.js-Express-CSS'
 			},
 			{
 				color: '#5499c7',
 				name: 'Color Sudoku',
 				link: 'http://color-sudoku.surge.sh/',
-				git: 'https://github.com/poy4n/color-sudoku'
+				git: 'https://github.com/poy4n/color-sudoku',
+				stack: 'React-JavaScript-CSS'
 			},
 			{
 				color: '#cd6155',
 				name: 'Flash Zoo',
 				link: 'https://beasuf.github.io/flash_zoo_client/',
-				git: 'https://github.com/poy4n/flash_zoo_client'
+				git: 'https://github.com/poy4n/flash_zoo_client',
+				stack: 'Unsplash API-JavaScript-Node.js-Express-PostgreSQL-HTML-CSS'
 			},
 			{
 				color: '#f4d03f',
 				name: 'TicTacToe',
 				link: 'https://poy4n.github.io/tictactoe/',
-				git: 'https://github.com/poy4n/tictactoe'
+				git: 'https://github.com/poy4n/tictactoe',
+				stack: 'JavaScript-HTML-CSS'
 			},
 			{
 				color: '#52be80',
-				name: 'Emotions Tracker',
+				name: 'Emotion Tracker',
 				link: 'https://emotions-tracker.herokuapp.com/',
-				git: 'https://github.com/poy4n/emotions-tracker'
+				git: 'https://github.com/poy4n/emotions-tracker',
+				stack: 'Ruby-Sinatra-PostgreSQL-HTML-CSS'
 			}
 		]
 	};
@@ -61,7 +67,7 @@ export default class Home extends React.Component {
 									<div className='overlay' style={{ backgroundColor: box.color }} />
 									<img
 										className='project-img'
-										style={{ border: `10px solid ${box.color}` }}
+										style={{ border: `5px solid ${box.color}` }}
 										src={require(`../projectsimg/${index + 1}.jpg`)}
 										alt=''
 									/>
@@ -86,6 +92,7 @@ export default class Home extends React.Component {
 										find the code
 									</a>
 								</div>
+								<p style={{ backgroundColor: box.color }}>{box.stack}</p>
 							</div>
 						);
 					})}
