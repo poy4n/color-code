@@ -13,42 +13,42 @@ export default class Home extends React.Component {
 				name: 'uraXa Map',
 				link: 'https://uraxa-netllfy-app.netlify.app/',
 				git: 'https://github.com/poy4n/uraXa',
-				stack: 'HERE Tech API-React-JavaScript-Node.js-Express-PostgreSQL-CSS'
+				stack: [ 'HERE API', 'React', 'JavaScript', 'Node.js', 'Express', 'PostgreSQL', 'CSS' ]
 			},
 			{
 				color: '#a569bd',
 				name: 'Marketplace',
 				link: 'https://warm-tundra-09087.herokuapp.com/',
 				git: 'https://github.com/poy4n/grocery-app',
-				stack: 'React-JavaScript-Node.js-Express-CSS'
+				stack: [ 'React', 'JavaScript', 'Node.js', 'Express', 'CSS' ]
 			},
 			{
 				color: '#5499c7',
 				name: 'Color Sudoku',
 				link: 'http://color-sudoku.surge.sh/',
 				git: 'https://github.com/poy4n/color-sudoku',
-				stack: 'React-JavaScript-CSS'
+				stack: [ 'React', 'JavaScript', 'CSS' ]
 			},
 			{
 				color: '#cd6155',
 				name: 'Flash Zoo',
 				link: 'https://beasuf.github.io/flash_zoo_client/',
 				git: 'https://github.com/poy4n/flash_zoo_client',
-				stack: 'Unsplash API-JavaScript-Node.js-Express-PostgreSQL-HTML-CSS'
-			},
-			{
-				color: '#f4d03f',
-				name: 'TicTacToe',
-				link: 'https://poy4n.github.io/tictactoe/',
-				git: 'https://github.com/poy4n/tictactoe',
-				stack: 'JavaScript-HTML-CSS'
+				stack: [ 'Unsplash API', 'JavaScript', 'Node.js', 'Express', 'PostgreSQL', 'HTML', 'CSS' ]
 			},
 			{
 				color: '#52be80',
 				name: 'Emotion Tracker',
 				link: 'https://emotions-tracker.herokuapp.com/',
 				git: 'https://github.com/poy4n/emotions-tracker',
-				stack: 'Ruby-Sinatra-PostgreSQL-HTML-CSS'
+				stack: [ 'Ruby', 'Sinatra', 'PostgreSQL', 'HTML', 'CSS' ]
+			},
+			{
+				color: '#f4d03f',
+				name: 'TicTacToe',
+				link: 'https://poy4n.github.io/tictactoe/',
+				git: 'https://github.com/poy4n/tictactoe',
+				stack: [ 'JavaScript', 'HTML', 'CSS' ]
 			}
 		]
 	};
@@ -92,7 +92,11 @@ export default class Home extends React.Component {
 										find the code
 									</a>
 								</div>
-								<p style={{ backgroundColor: box.color }}>{box.stack}</p>
+								<div className='stack'>
+									{box.stack.map((element) => {
+										return <p style={{ backgroundColor: box.color }}>{element}</p>;
+									})}
+								</div>
 							</div>
 						);
 					})}

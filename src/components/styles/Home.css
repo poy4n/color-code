@@ -4,7 +4,7 @@
 
 .project-container {
 	width: 400px;
-	margin: auto;
+	margin: 0 auto;
 }
 .overlay {
 	position: absolute;
@@ -77,4 +77,19 @@ h3 {
 
 .project-link:hover {
 	text-decoration: underline;
+}
+
+.stack {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+	margin-top: 5px;
+	gap: 5px;
+}
+
+.stack p {
+	text-align: center;
+	justify-content: center;
+	padding: 5px;
+	margin: 0;
+	height: 35px;
 }
