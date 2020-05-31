@@ -29,7 +29,7 @@ export default class ColorPsy extends React.Component {
 			{
 				color: `#40a4db`,
 				descriptions:
-					'Blue ties closely to the sea and the sky. Blue is stability, harmony, peace, calm and trust. Conversely, Blue can carry negative meanings such as depression and can bring about a sense of coldness.'
+					'Blue ties closely to the sea and the sky. Blue is stability, harmony, peace, calm and trust. Conversely, Blue can bring about a sense of coldness.'
 			},
 			{
 				color: `#407d0a`,
