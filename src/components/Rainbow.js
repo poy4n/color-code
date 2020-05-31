@@ -7,32 +7,32 @@ export default class ColorPsy extends React.Component {
 	state = {
 		colors: [
 			{
-				color: `#DC7633`,
+				color: `#c24523`,
 				descriptions:
 					'Orange represents creativity, adventure, enthusiasm, success, and balance. Orange adds a bit of fun to any picture, website, or marketing material.'
 			},
 			{
-				color: `#F4D03F`,
+				color: `#d19a41`,
 				descriptions:
 					'Yellow revolves around sunshine. It evokes feelings of happiness, positivity, optimism, and summer but also of deceit and warning.'
 			},
 			{
-				color: `#A569BD`,
+				color: `#8d216d`,
 				descriptions:
 					'Purple is a royal color. Purple is connected to power, nobility, luxury, wisdom, and spirituality.'
 			},
 			{
-				color: `#CD6155`,
+				color: `#d63a41`,
 				descriptions:
 					'Red is associated with excitement, passion, danger, energy, action and provoke the strongest emotions.'
 			},
 			{
-				color: `#5499C7`,
+				color: `#40a4db`,
 				descriptions:
 					'Blue ties closely to the sea and the sky. Blue is stability, harmony, peace, calm and trust. Conversely, Blue can carry negative meanings such as depression and can bring about a sense of coldness.'
 			},
 			{
-				color: `#52BE80`,
+				color: `#407d0a`,
 				descriptions:
 					'Green is highly connected to nature, growth, fertility, health, and generosity. Green carries negative associations such as envy.'
 			},

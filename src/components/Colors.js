@@ -4,21 +4,7 @@ import './styles/Colors.css';
 
 export default class Select extends React.Component {
 	state = {
-		languages: [
-			'Ruby 1995',
-			'JavaScript 1995',
-			'PHP 1995',
-			'Java 1995',
-			'Scala 2004',
-			'Elixir 2011',
-			'Crystal 2014',
-			'Haskell 1990',
-			'C# 2000',
-			'Python 1990',
-			'C++ 1985',
-			'Go 2009'
-		],
-		colors: [ '#16161e', '#DC7633', '#F4D03F', '#A569BD', '#CD6155', '#5499C7', '#52BE80', '#F0F3F4' ],
+		colors: [ '#16161e', '#d19a41', '#d63a41', '#40a4db', '#16161e', '#8d216d', '#407d0a', '#c24523', '#F0F3F4' ],
 		number: 0
 	};
 

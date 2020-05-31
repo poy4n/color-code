@@ -1,14 +1,13 @@
-
 .bar-wrapper {
-    border-bottom: 2px solid white;
-    margin-bottom: 20px;
-    background-image: url('https://wallpapercave.com/wp/wp3496493.png');
-    background-repeat: no-repeat;
+	border-bottom: 2px solid white;
+	margin-bottom: 20px;
+	background-image: url('https://wallpapercave.com/wp/wp3496493.png');
+	background-repeat: no-repeat;
 }
 
 .bar {
-    height: 310px;
-    background-color: #16161e;
-    transition: all 100ms linear;
-    background-image: linear-gradient(to left,#F4D03F,#A569BD,#5499C7,rgb(82, 190, 100));
+	height: 310px;
+	background-color: #16161e;
+	transition: all 100ms linear;
+	background-image: linear-gradient(to right, #d19a41, #8d216d, #40a4db, #407d0a);
 }
