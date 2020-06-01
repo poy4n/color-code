@@ -9,42 +9,42 @@ export default class Home extends React.Component {
 	state = {
 		projects: [
 			{
-				color: '#d19a41',
+				color: '#F39C12',
 				name: 'uraXa Map',
 				link: 'https://uraxa-netllfy-app.netlify.app/',
 				git: 'https://github.com/poy4n/uraXa',
 				stack: [ 'HERE API', 'React', 'JavaScript', 'Node.js', 'Express', 'PostgreSQL', 'CSS' ]
 			},
 			{
-				color: '#d63a41',
+				color: '#E74C3C',
 				name: 'Marketplace',
 				link: 'https://warm-tundra-09087.herokuapp.com/',
 				git: 'https://github.com/poy4n/grocery-app',
 				stack: [ 'React', 'JavaScript', 'Node.js', 'Express', 'CSS' ]
 			},
 			{
-				color: '#40a4db',
+				color: '#5DADE2',
 				name: 'Color Sudoku',
 				link: 'http://color-sudoku.surge.sh/',
 				git: 'https://github.com/poy4n/color-sudoku',
 				stack: [ 'React', 'JavaScript', 'CSS' ]
 			},
 			{
-				color: '#8d216d',
+				color: '#AF7AC5',
 				name: 'Flash Zoo',
 				link: 'https://beasuf.github.io/flash_zoo_client/',
 				git: 'https://github.com/poy4n/flash_zoo_client',
 				stack: [ 'Unsplash API', 'JavaScript', 'Node.js', 'Express', 'PostgreSQL', 'HTML', 'CSS' ]
 			},
 			{
-				color: '#407d0a',
+				color: '#52BE80',
 				name: 'Emotion Tracker',
 				link: 'https://emotions-tracker.herokuapp.com/',
 				git: 'https://github.com/poy4n/emotions-tracker',
 				stack: [ 'Ruby', 'Sinatra', 'PostgreSQL', 'HTML', 'CSS' ]
 			},
 			{
-				color: '#c24523',
+				color: '#F4D03F',
 				name: 'TicTacToe',
 				link: 'https://poy4n.github.io/tictactoe/',
 				git: 'https://github.com/poy4n/tictactoe',

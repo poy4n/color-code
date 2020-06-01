@@ -28,15 +28,15 @@ export default function About() {
 					<div className='box2'>
 						<h2>Interests</h2>
 						<div className='text2'>
-							I design visual experiences to trasnfer ideas and concepts. My creative approach and lateral
-							thinking can result in simple yet innovative design solutions.
+							I design visual experiences to trasnfer ideas and concepts. I seek a creative approach to
+							solve a problem that can result in simple yet innovative design solution.
 						</div>
 					</div>
 					<div className='box5'>
 						<h2>Stack</h2>
-						<div className='text5'>React JS</div>
-						<div className='text6'>Node.js</div>
 						<div className='text5'>Javascript</div>
+						<div className='text6'>React JS</div>
+						<div className='text5'>Node.js</div>
 						<div className='text6'>Express</div>
 						<div className='text5'>Ruby</div>
 						<div className='text6'>Sinatra</div>
@@ -48,16 +48,16 @@ export default function About() {
 					<div className='box3'>
 						<h2>Vision</h2>
 						<div className='text3'>
-							Programming provides the opportunity to be more creative and productive. With imaginative
-							vision and problem solving skills, I am eager to create diverse and innovative applications.
+							Programming provides the opportunity to be more creative and productive. It provides an
+							imaginative mind a diverse possibilities to create diverse and innovative applications.
 						</div>
 					</div>
 					<div className='box4'>
 						<h2>Programming</h2>
 						<div className='text4'>
-							Coding is a tool to convert ideas into a reality in order to solve big problems. I seek
-							exposure to creative code as a programmer. I am passionate about clear and well structured
-							code.
+							Coding is a tool to transfer ideas into a reality in order to solve big problems and make a
+							difference. I seek exposure to creative code as a programmer. I am passionate about clear
+							and well structured code.
 						</div>
 					</div>
 				</div>

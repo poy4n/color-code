@@ -6,7 +6,7 @@ import './styles/Menu.css';
 export default class Mene extends Component {
 	state = {
 		isClicked: false,
-		colors: [ '#d19a41', '#d63a41', '#40a4db', '#8d216d', '#407d0a', '#c24523' ]
+		colors: [ '#F39C12', '#F4D03F', '#AF7AC5', '#E74C3C', '#5DADE2', '#52BE80' ]
 	};
 
 	handleClick = () => {

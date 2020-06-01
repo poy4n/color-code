@@ -5,7 +5,7 @@ import './styles/Colors.css';
 
 export default class Select extends React.Component {
 	state = {
-		colors: [ '#16161e', '#d19a41', '#d63a41', '#16161e', '#40a4db', '#8d216d', '#16161e', '#407d0a', '#c24523' ],
+		colors: [ '#16161e', '#F39C12', '#F4D03F', '#AF7AC5', '#16161e', '#E74C3C', '#5DADE2', '#52BE80', '#F7F9F9' ],
 		number: 16
 	};
 
