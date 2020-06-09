@@ -34,7 +34,7 @@ export default class Home extends React.Component {
 				name: 'Flash Zoo',
 				link: 'https://beasuf.github.io/flash_zoo_client/',
 				git: 'https://github.com/poy4n/flash_zoo_client',
-				stack: [ 'Unsplash API', 'JavaScript', 'Node.js', 'Express', 'PostgreSQL', 'HTML', 'CSS' ]
+				stack: [ 'Unsplash API', 'Yandex API', 'JavaScript', 'Node.js', 'Express', 'PostgreSQL', 'HTML', 'CSS' ]
 			},
 			{
 				color: '#52BE80',
@@ -67,7 +67,7 @@ export default class Home extends React.Component {
 									<div className='overlay' style={{ backgroundColor: box.color }} />
 									<img
 										className='project-img'
-										style={{ border: `5px solid ${box.color}` }}
+										style={{ border: `2px solid ${box.color}` }}
 										src={require(`../projectsimg/${index + 1}.jpg`)}
 										alt=''
 									/>
