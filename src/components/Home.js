@@ -20,7 +20,7 @@ export default class Home extends React.Component {
 				name: 'Marketplace',
 				link: 'https://warm-tundra-09087.herokuapp.com/',
 				git: 'https://github.com/poy4n/grocery-app',
-				stack: [ 'React', 'JavaScript', 'Node.js', 'Express', 'CSS' ]
+				stack: [ 'React', 'Redux', 'JavaScript', 'Node.js', 'Express', 'CSS' ]
 			},
 			{
 				color: '#5DADE2',
