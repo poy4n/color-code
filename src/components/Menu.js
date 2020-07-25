@@ -34,11 +34,11 @@ export default class Mene extends Component {
       },
       {
         label: "GitHub",
-        url: "https://github.com/poy4n",
+        url: "https://github.com/solitariusdigital",
       },
       {
         label: "VisualWorks",
-        url: "https://www.instagram.com/solitarius.digital/",
+        url: "https://www.instagram.com/solitarius.soul/",
       },
     ];
     const { isClicked } = this.state;
