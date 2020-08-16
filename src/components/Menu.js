@@ -38,7 +38,7 @@ export default class Mene extends Component {
       },
       {
         label: "VisualWorks",
-        url: "https://www.instagram.com/solitarius.soul/",
+        url: "https://www.instagram.com/solitariusoul/",
       },
     ];
     const { isClicked } = this.state;
